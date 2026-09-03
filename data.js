@@ -180,23 +180,23 @@ const classData = [
         title: "🎥 Revision Recordings + Tutes",
         items: [
           {
-            id: "sft-d05", num: "05", title: "Day 05  2026-08-01",
+            id: "sft-d05", num: "05", title: "Day 05 - 2026-08-01",
             links: [
               { type: "video", label: "▶ Recording", url: "https://www.youtube.com/watch?v=YWwWPOvfIrw" }
             ]
           },
           {
-            id: "sft-d06", num: "06", title: "Day 06  2026-08-08",
+            id: "sft-d06", num: "06", title: "Day 06 - 2026-08-08",
             links: [
               { type: "video", label: "▶ Recording", url: "https://www.youtube.com/live/M5jxFrDwCL8?si=1ZjNiUkK9Ed-bUyT" }
             ]
           },
           {
-            id: "sft-d07", num: "07", title: "Day 07  2026-08-14 (Part 02)",
+            id: "sft-d07", num: "07", title: "Day 07 - 2026-08-14 (Part 02)",
             links: [{ type: "video", label: "▶ Recording", url: "https://www.youtube.com/live/OqN7gPxN0c4?si=xHhdDL1b9_-Xv6b_" }]
           },
           {
-            id: "sft-d08", num: "08", title: "Day 08 2026-08-21",
+            id: "sft-d08", num: "08", title: "Day 08 - 2026-08-21",
             links: [{ type: "video", label: "▶ Recording", url: "https://www.youtube.com/live/INgoMTMPoUY?si=fBa0pOumW_WbVOMs" }]
           },
           { id: "sft-drive", num: "📁", title: "Next lesson Tutes (Drive)", links: [{ type: "drive", label: "📂 Drive Folder", url: "https://drive.google.com/drive/folders/11-41I7-tL-GZN62dx_asgPQlE9nFsyfv" }] },
