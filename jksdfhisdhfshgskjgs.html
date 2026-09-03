@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ET • ICT • SFT Classes 2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f1f5f9;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --blue: #3b82f6;
+  --blue-soft: #eff6ff;
+  --green: #10b981;
+  --green-soft: #ecfdf5;
+  --red: #ef4444;
+  --red-soft: #fef2f2;
+  --purple: #8b5cf6;
+  --purple-soft: #f5f3ff;
+  --orange: #f59e0b;
+  --orange-soft: #fffbeb;
+  --radius: 20px;
+  --shadow: 0 4px 24px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 12px 40px rgba(15, 23, 42, 0.1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  background-image: 
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(59, 130, 246, 0.08), transparent);
+}
+
+/* ===== HEADER ===== */
+header {
+  background:
+    radial-gradient(ellipse 90% 80% at 85% 10%, rgba(59, 130, 246, 0.35), transparent 50%),
+    radial-gradient(ellipse 60% 50% at 10% 90%, rgba(139, 92, 246, 0.2), transparent 45%),
+    linear-gradient(160deg, #0b1220 0%, #111827 45%, #1e3a5f 100%);
+  color: white;
+  padding: 36px 20px 58px;
+  position: relative;
+  overflow: hidden;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 60%, rgba(15, 23, 42, 0.4));
+  pointer-events: none;
+}
+
+.header-inner {
+  max-width: 980px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: #93c5fd;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(147, 197, 253, 0.12);
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(147, 197, 253, 0.2);
+}
+
+header h1 {
+  margin-top: 16px;
+  font-size: clamp(28px, 5.5vw, 42px);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.15;
+  background: linear-gradient(135deg, #ffffff 30%, #bfdbfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+header p {
+  margin-top: 8px;
+  color: #94a3b8;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+/* ===== MAIN ===== */
+main {
+  max-width: 980px;
+  margin: -32px auto 0;
+  padding: 0 16px 60px;
+  position: relative;
+  z-index: 2;
+}
+
+.page {
+  display: none;
+  animation: fadeUp 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.page.active { display: block; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== SUBJECT GRID ===== */
+.subject-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.subject-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  border-radius: 22px;
+  padding: 22px 20px;
+  cursor: pointer;
+  transition: all 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.subject-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(59, 130, 246, 0.25);
+}
+
+.subject-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--card-accent, #3b82f6), transparent);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.subject-card:hover::before {
+  opacity: 1;
+}
+
+.subject-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.subject-card h2 {
+  font-size: 16.5px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+.subject-card p {
+  font-size: 12.5px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.subject-meta {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.progress-pill {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: #64748b;
+  letter-spacing: -0.01em;
+}
+
+.progress-pill.done {
+  background: var(--green-soft);
+  color: #059669;
+}
+
+.subject-arrow {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background: #f1f5f9;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 15px;
+  transition: all 0.25s;
+}
+
+.subject-card:hover .subject-arrow {
+  background: var(--blue);
+  color: white;
+  transform: translateX(2px);
+}
+
+/* ===== SUBJECT PAGE HEADER ===== */
+.page-header {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  border-radius: 20px;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: var(--shadow);
+}
+
+.back-btn {
+  border: none;
+  background: #f1f5f9;
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.back-btn:hover {
+  background: #e2e8f0;
+  transform: translateX(-2px);
+}
+
+.page-title h2 {
+  font-size: 17.5px;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.page-title p {
+  font-size: 12.5px;
+  color: var(--muted);
+  margin-top: 3px;
+  font-weight: 500;
+}
+
+/* ===== RECORDINGS ===== */
+.recording-list {
+  display: grid;
+  gap: 12px;
+}
+
+.recording {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.04);
+}
+
+.recording:hover {
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.08);
+  border-color: rgba(59, 130, 246, 0.2);
+}
+
+.recording-main {
+  padding: 15px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.recording-number {
+  min-width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  background: var(--blue-soft);
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 800;
+  flex-shrink: 0;
+  letter-spacing: -0.02em;
+  transition: all 0.25s;
+}
+
+.recording.completed .recording-number {
+  background: var(--green-soft);
+  color: #059669;
+}
+
+.recording-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.recording-info h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+  transition: color 0.2s;
+}
+
+.recording.completed .recording-info h3 {
+  color: #94a3b8;
+  text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+}
+
+.recording-info p {
+  margin-top: 3px;
+  font-size: 11.5px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.progress-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.progress-check {
+  width: 19px;
+  height: 19px;
+  accent-color: var(--green);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.chevron {
+  font-size: 22px;
+  color: #94a3b8;
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  line-height: 1;
+  font-weight: 300;
+}
+
+.recording.open .chevron {
+  transform: rotate(90deg);
+  color: var(--blue);
+}
+
+/* ===== RESOURCES ===== */
+.resources {
+  display: none;
+  border-top: 1px solid var(--border);
+  background: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+  padding: 14px;
+  gap: 10px;
+}
+
+.recording.open .resources {
+  display: grid;
+  grid-template-columns: 1fr;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.resource {
+  text-decoration: none;
+  border-radius: 14px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid transparent;
+  transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+  font-weight: 600;
+}
+
+.resource:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+}
+
+.resource-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+.resource-text strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.resource-text span {
+  display: block;
+  font-size: 11px;
+  margin-top: 2px;
+  opacity: 0.75;
+  font-weight: 500;
+}
+
+.resource.video {
+  background: var(--red-soft);
+  color: #dc2626;
+  border-color: #fecaca;
+}
+.resource.video .resource-icon { background: #fee2e2; }
+
+.resource.pdf {
+  background: var(--blue-soft);
+  color: #2563eb;
+  border-color: #bfdbfe;
+}
+.resource.pdf .resource-icon { background: #dbeafe; }
+
+.resource.drive {
+  background: var(--green-soft);
+  color: #059669;
+  border-color: #a7f3d0;
+}
+.resource.drive .resource-icon { background: #d1fae5; }
+
+.resource.other {
+  background: var(--purple-soft);
+  color: #7c3aed;
+  border-color: #ddd6fe;
+}
+.resource.other .resource-icon { background: #ede9fe; }
+
+.resource.pending {
+  background: #f8fafc;
+  color: #94a3b8;
+  border-color: #e2e8f0;
+  cursor: default;
+}
+.resource.pending:hover {
+  transform: none;
+  box-shadow: none;
+}
+.resource.pending .resource-icon { background: #f1f5f9; }
+
+/* ===== EMPTY ===== */
+.empty {
+  background: white;
+  border: 1.5px dashed #cbd5e1;
+  border-radius: 18px;
+  padding: 42px 20px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 13.5px;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 11.5px;
+  padding: 10px 16px 36px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (min-width: 700px) {
+  .subject-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+
+  .subject-card {
+    padding: 24px;
+  }
+
+  .subject-card h2 {
+    font-size: 17.5px;
+  }
+
+  .recording.open .resources {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .page-title h2 {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 28px 16px 50px;
+  }
+
+  .subject-card {
+    padding: 18px 16px;
+  }
+
+  .subject-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+
+  .recording-main {
+    padding: 13px 12px;
+    gap: 11px;
+  }
+
+  .recording-number {
+    min-width: 38px;
+    height: 38px;
+    font-size: 12px;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">2027 A/L • TECHNOLOGY</div>
+    <h1>ET • ICT • SFT Classes</h1>
+    <p>Revision • Recordings • Papers • Resources</p>
+  </div>
+</header>
+
+<main>
+  <!-- HOME -->
+  <section id="homePage" class="page active">
+    <div class="subject-grid" id="subjectGrid"></div>
+  </section>
+
+  <!-- SUBJECT DETAIL -->
+  <section id="subjectPage" class="page">
+    <div class="page-header">
+      <div class="page-title">
+        <h2 id="subjectTitle"></h2>
+        <p id="subjectDescription"></p>
+      </div>
+    </div>
+    <div class="recording-list" id="recordingList"></div>
+  </section>
+</main>
+
+<footer>2027 A/L Students • Progress automatically saved</footer>
+
+<script src="data.js"></script>
+<script>
+const STORAGE_KEY = "al2027_progress";
+
+function loadProgress() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+  } catch {
+    return {};
+  }
+}
+
+function saveProgress(data) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+}
+
+function resourceClass(type) {
+  if (type === "video") return "video";
+  if (type === "pdf") return "pdf";
+  if (type === "drive") return "drive";
+  if (type === "pending") return "pending";
+  return "other";
+}
+
+function resourceIcon(type) {
+  if (type === "video") return "▶";
+  if (type === "pdf") return "📄";
+  if (type === "drive") return "📁";
+  if (type === "pending") return "⏳";
+  return "🔗";
+}
+
+function resourceSubText(type) {
+  if (type === "video") return "Watch recording";
+  if (type === "pdf") return "Open PDF";
+  if (type === "drive") return "Open files";
+  if (type === "pending") return "Coming soon";
+  return "Open resource";
+}
+
+function getSubjectProgress(subject) {
+  const progress = loadProgress();
+  let total = 0;
+  let done = 0;
+
+  subject.cards.forEach(card => {
+    (card.items || []).forEach(item => {
+      total++;
+      if (progress[item.id]) done++;
+    });
+  });
+
+  return { total, done };
+}
+
+function renderHome() {
+  const grid = document.getElementById("subjectGrid");
+
+  if (!classData || !classData.length) {
+    grid.innerHTML = `<div class="empty">No classes available.</div>`;
+    return;
+  }
+
+  grid.innerHTML = classData.map((subject, index) => {
+    const { total, done } = getSubjectProgress(subject);
+    const pillClass = total > 0 && done === total ? "done" : "";
+    const pillText = total === 0 ? "No items" : `${done}/${total} done`;
+
+    return `
+      <div class="subject-card" onclick="openSubject(${index})" style="--card-accent:${subject.color}">
+        <div class="subject-icon" style="background:${subject.color}18;color:${subject.color}">
+          ${subject.icon}
+        </div>
+        <h2>${subject.title}</h2>
+        <p>${subject.badge || "2027 A/L"}</p>
+        <div class="subject-meta">
+          <span class="progress-pill ${pillClass}">${pillText}</span>
+          <span class="subject-arrow">→</span>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+function openSubject(index, fromHash = false) {
+  const subject = classData[index];
+  if (!subject) return;
+
+  document.getElementById("homePage").classList.remove("active");
+  document.getElementById("subjectPage").classList.add("active");
+
+  document.getElementById("subjectTitle").innerHTML = `${subject.icon} ${subject.title}`;
+  document.getElementById("subjectDescription").textContent =
+    `${subject.badge || "2027 A/L"} • Recordings & Resources`;
+
+  renderRecordings(subject);
+
+  if (!fromHash) {
+    history.replaceState(null, "", "#" + subject.id);
+  }
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function goHome() {
+  document.getElementById("subjectPage").classList.remove("active");
+  document.getElementById("homePage").classList.add("active");
+  history.replaceState(null, "", window.location.pathname);
+  renderHome(); // refresh progress pills
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function renderRecordings(subject) {
+  const container = document.getElementById("recordingList");
+  const progress = loadProgress();
+  let html = "";
+
+  subject.cards.forEach(card => {
+    if (!card.items || !card.items.length) return;
+
+    card.items.forEach((item, index) => {
+      const done = progress[item.id] ? "completed" : "";
+      const resources = (item.links || []).map(link => {
+        const cls = resourceClass(link.type);
+        const icon = resourceIcon(link.type);
+        const sub = resourceSubText(link.type);
+
+        if (link.type === "pending") {
+          return `
+            <div class="resource ${cls}">
+              <div class="resource-icon">${icon}</div>
+              <div class="resource-text">
+                <strong>${link.label}</strong>
+                <span>${sub}</span>
+              </div>
+            </div>
+          `;
+        }
+
+        return `
+          <a class="resource ${cls}" href="${link.url}" target="_blank" rel="noopener noreferrer">
+            <div class="resource-icon">${icon}</div>
+            <div class="resource-text">
+              <strong>${link.label}</strong>
+              <span>${sub}</span>
+            </div>
+          </a>
+        `;
+      }).join("");
+
+      html += `
+        <div class="recording ${done}" data-id="${item.id}">
+          <div class="recording-main" onclick="toggleRecording(this)">
+            <div class="recording-number">
+              ${item.num || String(index + 1).padStart(2, "0")}
+            </div>
+            <div class="recording-info">
+              <h3>${item.title}</h3>
+              <p>${(item.links && item.links.length) ? "Tap to view resources" : "No resources yet"}</p>
+            </div>
+            <div class="progress-row">
+              <input
+                type="checkbox"
+                class="progress-check"
+                ${done ? "checked" : ""}
+                onclick="event.stopPropagation()"
+                onchange="toggleProgress('${item.id}', this)"
+              >
+              <span class="chevron">›</span>
+            </div>
+          </div>
+          <div class="resources">
+            ${resources || `<div class="empty">No resources available.</div>`}
+          </div>
+        </div>
+      `;
+    });
+  });
+
+  container.innerHTML = html || `<div class="empty">No recordings available.</div>`;
+}
+
+function toggleRecording(element) {
+  const recording = element.closest(".recording");
+  recording.classList.toggle("open");
+}
+
+function toggleProgress(id, checkbox) {
+  const progress = loadProgress();
+  const recording = checkbox.closest(".recording");
+
+  if (checkbox.checked) {
+    progress[id] = true;
+    recording.classList.add("completed");
+  } else {
+    delete progress[id];
+    recording.classList.remove("completed");
+  }
+
+  saveProgress(progress);
+}
+
+function handleHash() {
+  const hash = window.location.hash.slice(1);
+  if (!hash || !classData) return;
+
+  const index = classData.findIndex(s => s.id === hash);
+  if (index !== -1) {
+    openSubject(index, true);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  renderHome();
+  handleHash();
+});
+
+window.addEventListener("hashchange", handleHash);
+</script>
+</body>
+</html>
