@@ -199,7 +199,7 @@ const classData = [
             id: "sft-d08", num: "08", title: "Day 08 - 2026-08-21",
             links: [{ type: "video", label: "▶ Recording", url: "https://www.youtube.com/live/INgoMTMPoUY?si=fBa0pOumW_WbVOMs" }]
           },
-          { id: "sft-drive", num: "📁", title: "Next lesson Tutes (Drive)", links: [{ type: "drive", label: "📂 Drive Folder", url: "https://drive.google.com/drive/folders/11-41I7-tL-GZN62dx_asgPQlE9nFsyfv" }] },
+          { id: "sft-df01", num: "📁", title: "Next lesson Tutes (Drive)", links: [{ type: "drive", label: "📂 Drive Folder", url: "https://drive.google.com/drive/folders/11-41I7-tL-GZN62dx_asgPQlE9nFsyfv" }] },
           {
             id: "sft-d09", num: "09", title: "Day 09 - 2026-09-04",
             links: [{ type: "pending", label: "▶ Recording", url: "#" }]
