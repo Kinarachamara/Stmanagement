@@ -170,7 +170,7 @@ const classData = [
     ]
   },
   {
-    id: "sft",
+    id: "sftR",
     title: "SFT – Malith Wasalage",
     badge: "2027 A/L Revision",
     icon: "🔬",
