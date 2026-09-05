@@ -23,51 +23,58 @@
   --purple: #8b5cf6;
   --purple-soft: #f5f3ff;
   --orange: #f59e0b;
-  --orange-soft: #fffbeb;
   --radius: 20px;
   --shadow: 0 4px 24px rgba(15, 23, 42, 0.06);
   --shadow-lg: 0 12px 40px rgba(15, 23, 42, 0.1);
+  --header-bg: linear-gradient(160deg, #0b1220 0%, #111827 45%, #1e3a5f 100%);
 }
-
+[data-theme="dark"] {
+  --bg: #0b1120;
+  --card: #1e293b;
+  --text: #f1f5f9;
+  --muted: #94a3b8;
+  --border: #334155;
+  --blue-soft: #1e3a5f;
+  --green-soft: #064e3b;
+  --red-soft: #450a0a;
+  --purple-soft: #2e1065;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.4);
+  --header-bg: linear-gradient(160deg, #020617 0%, #0f172a 50%, #1e293b 100%);
+}
 * { margin: 0; padding: 0; box-sizing: border-box; }
-
 body {
   font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
-  background-image: 
-    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(59, 130, 246, 0.08), transparent);
+  transition: background 0.3s, color 0.3s;
 }
-
-/* ===== HEADER ===== */
 header {
-  background:
-    radial-gradient(ellipse 90% 80% at 85% 10%, rgba(59, 130, 246, 0.35), transparent 50%),
-    radial-gradient(ellipse 60% 50% at 10% 90%, rgba(139, 92, 246, 0.2), transparent 45%),
-    linear-gradient(160deg, #0b1220 0%, #111827 45%, #1e3a5f 100%);
+  background: var(--header-bg);
   color: white;
   padding: 36px 20px 58px;
   position: relative;
   overflow: hidden;
 }
-
 header::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, transparent 60%, rgba(15, 23, 42, 0.4));
+  background: linear-gradient(to bottom, transparent 55%, rgba(0,0,0,0.25));
   pointer-events: none;
 }
-
 .header-inner {
   max-width: 980px;
   margin: 0 auto;
   position: relative;
   z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-
+.header-left { flex: 1; }
 .logo {
   font-size: 11px;
   font-weight: 800;
@@ -82,10 +89,9 @@ header::after {
   border-radius: 999px;
   border: 1px solid rgba(147, 197, 253, 0.2);
 }
-
 header h1 {
   margin-top: 16px;
-  font-size: clamp(28px, 5.5vw, 42px);
+  font-size: clamp(26px, 5.2vw, 40px);
   font-weight: 800;
   letter-spacing: -0.045em;
   line-height: 1.15;
@@ -94,16 +100,29 @@ header h1 {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
 header p {
   margin-top: 8px;
   color: #94a3b8;
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: -0.01em;
 }
+.theme-btn {
+  border: none;
+  background: rgba(255,255,255,0.1);
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.theme-btn:hover { background: rgba(255,255,255,0.18); }
 
-/* ===== MAIN ===== */
 main {
   max-width: 980px;
   margin: -32px auto 0;
@@ -111,16 +130,13 @@ main {
   position: relative;
   z-index: 2;
 }
-
 .page {
   display: none;
-  animation: fadeUp 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+  animation: fadeUp 0.35s cubic-bezier(0.22, 1, 0.36, 1);
 }
-
 .page.active { display: block; }
-
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(14px); }
+  from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
@@ -130,11 +146,9 @@ main {
   grid-template-columns: repeat(2, 1fr);
   gap: 14px;
 }
-
 .subject-card {
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(226, 232, 240, 0.8);
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: 22px;
   padding: 22px 20px;
   cursor: pointer;
@@ -143,13 +157,10 @@ main {
   position: relative;
   overflow: hidden;
 }
-
 .subject-card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-lg);
-  border-color: rgba(59, 130, 246, 0.25);
 }
-
 .subject-card::before {
   content: "";
   position: absolute;
@@ -159,11 +170,7 @@ main {
   opacity: 0;
   transition: opacity 0.25s;
 }
-
-.subject-card:hover::before {
-  opacity: 1;
-}
-
+.subject-card:hover::before { opacity: 1; }
 .subject-icon {
   width: 50px;
   height: 50px;
@@ -173,9 +180,7 @@ main {
   justify-content: center;
   font-size: 23px;
   margin-bottom: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
 }
-
 .subject-card h2 {
   font-size: 16.5px;
   font-weight: 700;
@@ -183,13 +188,11 @@ main {
   line-height: 1.3;
   letter-spacing: -0.02em;
 }
-
 .subject-card p {
   font-size: 12.5px;
   color: var(--muted);
   font-weight: 500;
 }
-
 .subject-meta {
   margin-top: 18px;
   display: flex;
@@ -197,27 +200,23 @@ main {
   justify-content: space-between;
   gap: 8px;
 }
-
 .progress-pill {
   font-size: 11px;
   font-weight: 700;
   padding: 5px 11px;
   border-radius: 999px;
-  background: #f1f5f9;
-  color: #64748b;
-  letter-spacing: -0.01em;
+  background: var(--bg);
+  color: var(--muted);
 }
-
 .progress-pill.done {
   background: var(--green-soft);
   color: #059669;
 }
-
 .subject-arrow {
   width: 32px;
   height: 32px;
   border-radius: 10px;
-  background: #f1f5f9;
+  background: var(--bg);
   color: var(--blue);
   display: flex;
   align-items: center;
@@ -226,18 +225,16 @@ main {
   font-size: 15px;
   transition: all 0.25s;
 }
-
 .subject-card:hover .subject-arrow {
   background: var(--blue);
   color: white;
   transform: translateX(2px);
 }
 
-/* ===== SUBJECT PAGE HEADER ===== */
+/* ===== PAGE HEADER ===== */
 .page-header {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(16px);
-  border: 1px solid rgba(226, 232, 240, 0.9);
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: 20px;
   padding: 12px 14px;
   margin-bottom: 18px;
@@ -246,35 +243,31 @@ main {
   gap: 14px;
   box-shadow: var(--shadow);
 }
-
 .back-btn {
   border: none;
-  background: #f1f5f9;
+  background: var(--bg);
   width: 42px;
   height: 42px;
   border-radius: 13px;
   cursor: pointer;
   font-size: 18px;
-  color: #334155;
+  color: var(--text);
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.2s;
   flex-shrink: 0;
 }
-
 .back-btn:hover {
-  background: #e2e8f0;
+  background: var(--border);
   transform: translateX(-2px);
 }
-
 .page-title h2 {
   font-size: 17.5px;
   font-weight: 800;
   line-height: 1.25;
   letter-spacing: -0.02em;
 }
-
 .page-title p {
   font-size: 12.5px;
   color: var(--muted);
@@ -282,26 +275,20 @@ main {
   font-weight: 500;
 }
 
-/* ===== RECORDINGS ===== */
-.recording-list {
-  display: grid;
-  gap: 12px;
-}
-
+/* ===== RECORDINGS LIST ===== */
+.recording-list { display: grid; gap: 12px; }
 .recording {
-  background: rgba(255, 255, 255, 0.95);
-  border: 1px solid rgba(226, 232, 240, 0.9);
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
-  transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: all 0.25s;
   box-shadow: 0 2px 12px rgba(15, 23, 42, 0.04);
 }
-
 .recording:hover {
-  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.08);
-  border-color: rgba(59, 130, 246, 0.2);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(59, 130, 246, 0.25);
 }
-
 .recording-main {
   padding: 15px 16px;
   display: flex;
@@ -310,7 +297,6 @@ main {
   cursor: pointer;
   user-select: none;
 }
-
 .recording-number {
   min-width: 42px;
   height: 42px;
@@ -323,176 +309,210 @@ main {
   font-size: 13px;
   font-weight: 800;
   flex-shrink: 0;
-  letter-spacing: -0.02em;
-  transition: all 0.25s;
 }
-
 .recording.completed .recording-number {
   background: var(--green-soft);
   color: #059669;
 }
-
-.recording-info {
-  flex: 1;
-  min-width: 0;
-}
-
+.recording-info { flex: 1; min-width: 0; }
 .recording-info h3 {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.35;
   letter-spacing: -0.015em;
-  transition: color 0.2s;
 }
-
 .recording.completed .recording-info h3 {
-  color: #94a3b8;
+  color: var(--muted);
   text-decoration: line-through;
   text-decoration-thickness: 1.5px;
 }
-
 .recording-info p {
   margin-top: 3px;
   font-size: 11.5px;
   color: var(--muted);
   font-weight: 500;
 }
-
 .progress-row {
   display: flex;
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
 }
-
 .progress-check {
   width: 19px;
   height: 19px;
   accent-color: var(--green);
   cursor: pointer;
-  border-radius: 5px;
 }
-
 .chevron {
   font-size: 22px;
-  color: #94a3b8;
+  color: var(--muted);
   transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
   line-height: 1;
   font-weight: 300;
 }
-
 .recording.open .chevron {
   transform: rotate(90deg);
   color: var(--blue);
 }
-
-/* ===== RESOURCES ===== */
 .resources {
   display: none;
   border-top: 1px solid var(--border);
-  background: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+  background: var(--bg);
   padding: 14px;
   gap: 10px;
 }
-
 .recording.open .resources {
   display: grid;
   grid-template-columns: 1fr;
   animation: slideDown 0.3s ease;
 }
-
 @keyframes slideDown {
   from { opacity: 0; transform: translateY(-6px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* ===== RESOURCE CARDS ===== */
 .resource {
   text-decoration: none;
   border-radius: 14px;
-  padding: 12px 14px;
+  padding: 13px 15px;
   display: flex;
   align-items: center;
   gap: 12px;
   border: 1px solid transparent;
-  transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: all 0.2s;
   font-weight: 600;
 }
-
 .resource:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 }
-
 .resource-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-size: 16px;
   flex-shrink: 0;
 }
-
 .resource-text strong {
   display: block;
-  font-size: 13px;
+  font-size: 13.5px;
   font-weight: 700;
-  letter-spacing: -0.01em;
 }
-
 .resource-text span {
   display: block;
-  font-size: 11px;
+  font-size: 11.5px;
   margin-top: 2px;
   opacity: 0.75;
   font-weight: 500;
 }
-
-.resource.video {
-  background: var(--red-soft);
-  color: #dc2626;
-  border-color: #fecaca;
-}
+.resource.video { background: var(--red-soft); color: #dc2626; border-color: #fecaca; }
 .resource.video .resource-icon { background: #fee2e2; }
-
-.resource.pdf {
-  background: var(--blue-soft);
-  color: #2563eb;
-  border-color: #bfdbfe;
-}
+.resource.pdf { background: var(--blue-soft); color: #2563eb; border-color: #bfdbfe; }
 .resource.pdf .resource-icon { background: #dbeafe; }
-
-.resource.drive {
-  background: var(--green-soft);
-  color: #059669;
-  border-color: #a7f3d0;
-}
+.resource.drive { background: var(--green-soft); color: #059669; border-color: #a7f3d0; }
 .resource.drive .resource-icon { background: #d1fae5; }
-
-.resource.other {
-  background: var(--purple-soft);
-  color: #7c3aed;
-  border-color: #ddd6fe;
-}
+.resource.other { background: var(--purple-soft); color: #7c3aed; border-color: #ddd6fe; }
 .resource.other .resource-icon { background: #ede9fe; }
-
 .resource.pending {
-  background: #f8fafc;
-  color: #94a3b8;
-  border-color: #e2e8f0;
+  background: var(--bg);
+  color: var(--muted);
+  border-color: var(--border);
   cursor: default;
 }
-.resource.pending:hover {
-  transform: none;
-  box-shadow: none;
-}
-.resource.pending .resource-icon { background: #f1f5f9; }
+.resource.pending:hover { transform: none; box-shadow: none; }
+.resource.pending .resource-icon { background: var(--border); }
 
-/* ===== EMPTY ===== */
+/* ===== SINGLE ITEM PAGE (Premium) ===== */
+.single-wrap {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+.single-top {
+  padding: 28px 22px 24px;
+  position: relative;
+  overflow: hidden;
+}
+.single-top::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--accent-color, #3b82f6)15, transparent 60%);
+  opacity: 0.5;
+}
+.single-top-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.single-num {
+  min-width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  background: var(--card);
+  color: var(--accent-color, #3b82f6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 800;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border: 1px solid var(--border);
+}
+.single-top.completed .single-num {
+  background: var(--green-soft);
+  color: #059669;
+}
+.single-meta h3 {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.25;
+}
+.single-meta p {
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 500;
+}
+.single-resources {
+  padding: 18px;
+  display: grid;
+  gap: 12px;
+  background: var(--bg);
+}
+.single-check-row {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 18px;
+  background: var(--card);
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  font-size: 14.5px;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+}
+.single-check-row input {
+  width: 22px;
+  height: 22px;
+  accent-color: var(--green);
+  cursor: pointer;
+}
+
 .empty {
-  background: white;
-  border: 1.5px dashed #cbd5e1;
+  background: var(--card);
+  border: 1.5px dashed var(--border);
   border-radius: 18px;
   padding: 42px 20px;
   text-align: center;
@@ -500,76 +520,46 @@ main {
   font-size: 13.5px;
   font-weight: 500;
 }
-
 footer {
   text-align: center;
-  color: #94a3b8;
+  color: var(--muted);
   font-size: 11.5px;
   padding: 10px 16px 36px;
   font-weight: 500;
-  letter-spacing: -0.01em;
 }
 
-/* ===== RESPONSIVE ===== */
 @media (min-width: 700px) {
   .subject-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
   }
-
-  .subject-card {
-    padding: 24px;
+  .recording.open .resources,
+  .single-resources {
+    grid-template-columns: repeat(2, 1fr);
   }
-
-  .subject-card h2 {
-    font-size: 17.5px;
-  }
-
-  .recording.open .resources {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .page-title h2 {
-    font-size: 19px;
-  }
+  .page-title h2 { font-size: 19px; }
+  .single-meta h3 { font-size: 26px; }
 }
-
 @media (max-width: 480px) {
-  header {
-    padding: 28px 16px 50px;
-  }
-
-  .subject-card {
-    padding: 18px 16px;
-  }
-
-  .subject-icon {
-    width: 44px;
-    height: 44px;
-    font-size: 20px;
-    margin-bottom: 13px;
-  }
-
-  .recording-main {
-    padding: 13px 12px;
-    gap: 11px;
-  }
-
-  .recording-number {
-    min-width: 38px;
-    height: 38px;
-    font-size: 12px;
-  }
+  header { padding: 28px 16px 50px; }
+  .subject-card { padding: 18px 16px; }
+  .subject-icon { width: 44px; height: 44px; font-size: 20px; margin-bottom: 13px; }
+  .recording-main { padding: 13px 12px; gap: 11px; }
+  .recording-number { min-width: 38px; height: 38px; font-size: 12px; }
+  .single-num { min-width: 54px; height: 54px; font-size: 17px; }
+  .single-meta h3 { font-size: 19px; }
 }
 </style>
 </head>
 <body>
-
 <header>
   <div class="header-inner">
-    <div class="logo">2027 A/L • TECHNOLOGY</div>
-    <h1>ET • ICT • SFT Classes</h1>
-    <p>Revision • Recordings • Papers • Resources</p>
+    <div class="header-left">
+      <div class="logo">2027 A/L • TECHNOLOGY</div>
+      <h1>ET • ICT • SFT Classes</h1>
+      <p>Revision • Recordings • Papers • Resources</p>
+    </div>
+    <button class="theme-btn" onclick="toggleTheme()" title="Toggle theme">🌙</button>
   </div>
 </header>
 
@@ -579,15 +569,28 @@ footer {
     <div class="subject-grid" id="subjectGrid"></div>
   </section>
 
-  <!-- SUBJECT DETAIL -->
+  <!-- SUBJECT LIST -->
   <section id="subjectPage" class="page">
     <div class="page-header">
+      <button class="back-btn" onclick="goHome()">←</button>
       <div class="page-title">
         <h2 id="subjectTitle"></h2>
         <p id="subjectDescription"></p>
       </div>
     </div>
     <div class="recording-list" id="recordingList"></div>
+  </section>
+
+  <!-- SINGLE ITEM (only this recording) -->
+  <section id="itemPage" class="page">
+    <div class="page-header">
+      <button class="back-btn" id="itemBackBtn">←</button>
+      <div class="page-title">
+        <h2 id="itemPageTitle"></h2>
+        <p id="itemPageDesc"></p>
+      </div>
+    </div>
+    <div id="singleItemContent"></div>
   </section>
 </main>
 
@@ -596,15 +599,14 @@ footer {
 <script src="data.js"></script>
 <script>
 const STORAGE_KEY = "al2027_progress";
+const THEME_KEY = "al2027_theme";
+
+let currentSubjectId = null;
 
 function loadProgress() {
-  try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
-  } catch {
-    return {};
-  }
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }
+  catch { return {}; }
 }
-
 function saveProgress(data) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 }
@@ -616,7 +618,6 @@ function resourceClass(type) {
   if (type === "pending") return "pending";
   return "other";
 }
-
 function resourceIcon(type) {
   if (type === "video") return "▶";
   if (type === "pdf") return "📄";
@@ -624,7 +625,6 @@ function resourceIcon(type) {
   if (type === "pending") return "⏳";
   return "🔗";
 }
-
 function resourceSubText(type) {
   if (type === "video") return "Watch recording";
   if (type === "pdf") return "Open PDF";
@@ -635,35 +635,35 @@ function resourceSubText(type) {
 
 function getSubjectProgress(subject) {
   const progress = loadProgress();
-  let total = 0;
-  let done = 0;
-
+  let total = 0, done = 0;
   subject.cards.forEach(card => {
     (card.items || []).forEach(item => {
       total++;
       if (progress[item.id]) done++;
     });
   });
-
   return { total, done };
+}
+
+function hideAllPages() {
+  ["homePage", "subjectPage", "itemPage"].forEach(id => {
+    document.getElementById(id).classList.remove("active");
+  });
 }
 
 function renderHome() {
   const grid = document.getElementById("subjectGrid");
-
-  if (!classData || !classData.length) {
+  if (!classData?.length) {
     grid.innerHTML = `<div class="empty">No classes available.</div>`;
     return;
   }
-
   grid.innerHTML = classData.map((subject, index) => {
     const { total, done } = getSubjectProgress(subject);
     const pillClass = total > 0 && done === total ? "done" : "";
     const pillText = total === 0 ? "No items" : `${done}/${total} done`;
-
     return `
       <div class="subject-card" onclick="openSubject(${index})" style="--card-accent:${subject.color}">
-        <div class="subject-icon" style="background:${subject.color}18;color:${subject.color}">
+        <div class="subject-icon" style="background:${subject.color}22;color:${subject.color}">
           ${subject.icon}
         </div>
         <h2>${subject.title}</h2>
@@ -681,27 +681,101 @@ function openSubject(index, fromHash = false) {
   const subject = classData[index];
   if (!subject) return;
 
-  document.getElementById("homePage").classList.remove("active");
+  currentSubjectId = subject.id;
+  hideAllPages();
   document.getElementById("subjectPage").classList.add("active");
-
   document.getElementById("subjectTitle").innerHTML = `${subject.icon} ${subject.title}`;
   document.getElementById("subjectDescription").textContent =
     `${subject.badge || "2027 A/L"} • Recordings & Resources`;
 
   renderRecordings(subject);
 
-  if (!fromHash) {
-    history.replaceState(null, "", "#" + subject.id);
-  }
+  if (!fromHash) history.replaceState(null, "", `#${subject.id}`);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 
+function openSingleItem(subjectId, itemId, fromHash = false) {
+  const subject = classData.find(s => s.id === subjectId);
+  if (!subject) return;
+
+  let item = null;
+  subject.cards.forEach(card => {
+    (card.items || []).forEach(i => { if (i.id === itemId) item = i; });
+  });
+  if (!item) return;
+
+  currentSubjectId = subjectId;
+  hideAllPages();
+  document.getElementById("itemPage").classList.add("active");
+
+  document.getElementById("itemPageTitle").textContent = item.title;
+  document.getElementById("itemPageDesc").textContent = `${subject.icon} ${subject.title}`;
+
+  document.getElementById("itemBackBtn").onclick = () => {
+    const idx = classData.findIndex(s => s.id === subjectId);
+    if (idx !== -1) openSubject(idx);
+  };
+
+  const progress = loadProgress();
+  const isDone = !!progress[item.id];
+  const accent = subject.color || "#3b82f6";
+
+  const resourcesHtml = (item.links || []).map(link => {
+    const cls = resourceClass(link.type);
+    const icon = resourceIcon(link.type);
+    const sub = resourceSubText(link.type);
+    if (link.type === "pending") {
+      return `
+        <div class="resource ${cls}">
+          <div class="resource-icon">${icon}</div>
+          <div class="resource-text">
+            <strong>${link.label}</strong>
+            <span>${sub}</span>
+          </div>
+        </div>`;
+    }
+    return `
+      <a class="resource ${cls}" href="${link.url}" target="_blank" rel="noopener noreferrer">
+        <div class="resource-icon">${icon}</div>
+        <div class="resource-text">
+          <strong>${link.label}</strong>
+          <span>${sub}</span>
+        </div>
+      </a>`;
+  }).join("");
+
+  document.getElementById("singleItemContent").innerHTML = `
+    <div class="single-wrap">
+      <div class="single-top ${isDone ? "completed" : ""}" style="--accent-color:${accent}">
+        <div class="single-top-inner">
+          <div class="single-num">${item.num || "•"}</div>
+          <div class="single-meta">
+            <h3>${item.title}</h3>
+            <p>${subject.badge || "2027 A/L"}</p>
+          </div>
+        </div>
+      </div>
+      <div class="single-resources">
+        ${resourcesHtml || `<div class="empty">No resources available.</div>`}
+      </div>
+    </div>
+    <div class="single-check-row">
+      <input type="checkbox" id="singleCheck" ${isDone ? "checked" : ""} 
+             onchange="toggleProgress('${item.id}', this)">
+      <label for="singleCheck">Mark as completed</label>
+    </div>
+  `;
+
+  if (!fromHash) history.replaceState(null, "", `#${subjectId}/${itemId}`);
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function goHome() {
-  document.getElementById("subjectPage").classList.remove("active");
+  hideAllPages();
   document.getElementById("homePage").classList.add("active");
+  currentSubjectId = null;
   history.replaceState(null, "", window.location.pathname);
-  renderHome(); // refresh progress pills
+  renderHome();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -711,15 +785,13 @@ function renderRecordings(subject) {
   let html = "";
 
   subject.cards.forEach(card => {
-    if (!card.items || !card.items.length) return;
-
+    if (!card.items?.length) return;
     card.items.forEach((item, index) => {
       const done = progress[item.id] ? "completed" : "";
       const resources = (item.links || []).map(link => {
         const cls = resourceClass(link.type);
         const icon = resourceIcon(link.type);
         const sub = resourceSubText(link.type);
-
         if (link.type === "pending") {
           return `
             <div class="resource ${cls}">
@@ -728,10 +800,8 @@ function renderRecordings(subject) {
                 <strong>${link.label}</strong>
                 <span>${sub}</span>
               </div>
-            </div>
-          `;
+            </div>`;
         }
-
         return `
           <a class="resource ${cls}" href="${link.url}" target="_blank" rel="noopener noreferrer">
             <div class="resource-icon">${icon}</div>
@@ -739,77 +809,99 @@ function renderRecordings(subject) {
               <strong>${link.label}</strong>
               <span>${sub}</span>
             </div>
-          </a>
-        `;
+          </a>`;
       }).join("");
 
       html += `
         <div class="recording ${done}" data-id="${item.id}">
           <div class="recording-main" onclick="toggleRecording(this)">
-            <div class="recording-number">
-              ${item.num || String(index + 1).padStart(2, "0")}
-            </div>
+            <div class="recording-number">${item.num || String(index + 1).padStart(2, "0")}</div>
             <div class="recording-info">
               <h3>${item.title}</h3>
-              <p>${(item.links && item.links.length) ? "Tap to view resources" : "No resources yet"}</p>
+              <p>${(item.links?.length) ? "Tap to view resources" : "No resources yet"}</p>
             </div>
             <div class="progress-row">
-              <input
-                type="checkbox"
-                class="progress-check"
-                ${done ? "checked" : ""}
-                onclick="event.stopPropagation()"
-                onchange="toggleProgress('${item.id}', this)"
-              >
+              <input type="checkbox" class="progress-check" ${done ? "checked" : ""}
+                     onclick="event.stopPropagation()"
+                     onchange="toggleProgress('${item.id}', this)">
               <span class="chevron">›</span>
             </div>
           </div>
           <div class="resources">
             ${resources || `<div class="empty">No resources available.</div>`}
           </div>
-        </div>
-      `;
+        </div>`;
     });
   });
 
   container.innerHTML = html || `<div class="empty">No recordings available.</div>`;
 }
 
-function toggleRecording(element) {
-  const recording = element.closest(".recording");
-  recording.classList.toggle("open");
+function toggleRecording(el) {
+  el.closest(".recording").classList.toggle("open");
 }
 
 function toggleProgress(id, checkbox) {
   const progress = loadProgress();
-  const recording = checkbox.closest(".recording");
+  if (checkbox.checked) progress[id] = true;
+  else delete progress[id];
+  saveProgress(progress);
 
-  if (checkbox.checked) {
-    progress[id] = true;
-    recording.classList.add("completed");
-  } else {
-    delete progress[id];
-    recording.classList.remove("completed");
+  const rec = document.querySelector(`.recording[data-id="${id}"]`);
+  if (rec) {
+    rec.classList.toggle("completed", checkbox.checked);
   }
 
-  saveProgress(progress);
+  const singleTop = document.querySelector(".single-top");
+  if (singleTop) {
+    singleTop.classList.toggle("completed", checkbox.checked);
+  }
 }
 
 function handleHash() {
   const hash = window.location.hash.slice(1);
-  if (!hash || !classData) return;
+  if (!hash || !classData) {
+    goHome();
+    return;
+  }
 
-  const index = classData.findIndex(s => s.id === hash);
-  if (index !== -1) {
+  const [subjectId, itemId] = hash.split("/");
+  const index = classData.findIndex(s => s.id === subjectId);
+
+  if (index === -1) {
+    goHome();
+    return;
+  }
+
+  if (itemId) {
+    openSingleItem(subjectId, itemId, true);
+  } else {
     openSubject(index, true);
   }
 }
 
+function toggleTheme() {
+  const html = document.documentElement;
+  const current = html.getAttribute("data-theme");
+  const next = current === "dark" ? "light" : "dark";
+  html.setAttribute("data-theme", next === "dark" ? "dark" : "");
+  localStorage.setItem(THEME_KEY, next);
+  document.querySelector(".theme-btn").textContent = next === "dark" ? "☀️" : "🌙";
+}
+
+function initTheme() {
+  const saved = localStorage.getItem(THEME_KEY) || "light";
+  if (saved === "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+    document.querySelector(".theme-btn").textContent = "☀️";
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  initTheme();
   renderHome();
   handleHash();
 });
-
 window.addEventListener("hashchange", handleHash);
 </script>
 </body>
