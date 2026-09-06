@@ -85,7 +85,7 @@ const classData = [
   },
   {
     id: "ict-paper",
-    title: "ICT Paper Class – Bhanuka Ekanayaka",
+    title: "2027 ICT Paper Class",
     badge: "2027",
     icon: "💻",
     color: "#8b5cf6",
@@ -171,7 +171,7 @@ const classData = [
   },
   {
     id: "sftR",
-    title: "SFT – Malith Wasalage",
+    title: "2027 SFT Revision",
     badge: "2027 A/L Revision",
     icon: "🔬",
     color: "#10b981",
@@ -210,8 +210,8 @@ const classData = [
   },
   {
     id: "water",
-    title: "Water – ජල සම්පාදනය සහ කසල අපවහනය",
-    badge: "ET Srimal",
+    title: "ET - ජල සම්පාදනය සහ කසල අපවහනය",
+    badge: "ET ජල සම්පාදනය සහ කසල අපවහනය recording",
     icon: "💧",
     color: "#0ea5e9",
     cards: [
@@ -231,7 +231,7 @@ const classData = [
   {
     id: "et",
     title: "ET – Electrical Recordings",
-    badge: "BASIC ELEC",
+    badge: "BASIC Electrical",
     icon: "⚡",
     color: "#3b82f6",
     cards: [
@@ -257,6 +257,49 @@ const classData = [
 
         ]
       },
+    ]
+  },
+  {
+    id: "SFTIT",
+    title: "SFT IT part",
+    badge: "SFT IT all units",
+    icon: "💻",
+    color: "#8b5cf6",
+    cards: [
+      {
+        title: "SFT IT lessons",
+        items: [
+          {
+            id: "SFTIT-01", num: "01", title: "Operating systems Video 01",
+            links: [
+              { type: "video", label: "▶ Recording", url: "https://youtu.be/0rttn8EeueY" },            ]
+          },
+          {
+            id: "SFTIT-02", num: "02", title: "Operating systems Video 02",
+            links: [
+              { type: "video", label: "▶ Recording", url: "https://youtu.be/g0NGXQbNq34" },            ]
+          },
+          {
+            id: "SFTIT-03", num: "03", title: "Internet & Email Video 01 ",
+            links: [
+              { type: "video", label: "▶ Recording", url: "https://youtu.be/hcyM6rQQ-ds" },            ]
+          },
+          {
+            id: "SFTIT-02", num: "02", title: "Word Video 01",
+            links: [
+              { type: "video", label: "▶ Recording", url: "https://youtu.be/0flFAnYCZS4" },            ]
+          },{
+            id: "SFTIT-01", num: "01", title: "powerpoint Video 01",
+            links: [
+              { type: "video", label: "▶ Recording", url: "https://youtu.be/YnG-YD0xGwA" },            ]
+          },
+          {
+            id: "SFTIT-02", num: "02", title: "Excel Video 01",
+            links: [
+              { type: "video", label: "▶ Recording", url: "https://youtu.be/Ep9_hRLJsB8?si=ASJvNQRlEXJXDoK-" },            ]
+          },
+        ]
+      }
     ]
   },
 ];
