@@ -94,7 +94,7 @@ const classData = [
         title: "📝 IRC Papers + Discussion + Marking",
         items: [
           {
-            id: "ictp-01", num: "01", title: "IRC Paper No. 01",
+            id: "ictp-01", num: "01", title: "IRC Paper No. 01 (2026-08-18)",
             links: [
               { type: "pdf", label: "📄 Paper", url: "https://drive.google.com/file/d/1VEecTzrIWvvzTfr66-KGCqvm9xBtw9kH/view?usp=drivesdk" },
               { type: "video", label: "▶ Discussion", url: "https://youtu.be/QmpWCi6UkYc?si=AOClFIWIOYwklRIc" },
@@ -102,7 +102,7 @@ const classData = [
             ]
           },
           {
-            id: "ictp-02", num: "02", title: "IRC Paper No. 02",
+            id: "ictp-02", num: "02", title: "IRC Paper No. 02 (2026-08-25)",
             links: [
               { type: "pdf", label: "📄 Paper", url: "https://drive.google.com/file/d/1F4TKZcIkdw_uGZ8dcMLHNOFR1kg84dpe/view?usp=drivesdk" },
               { type: "video", label: "▶ Discussion", url: "https://youtu.be/3nmmaDiP3KY?si=3JzSPdMuCaO5D_At" },
@@ -110,7 +110,7 @@ const classData = [
             ]
           },
           {
-            id: "ictp-03", num: "03", title: "IRC Paper No. 03",
+            id: "ictp-03", num: "03", title: "IRC Paper No. 03 (2026-09-01)",
             links: [
               { type: "pdf", label: "📄 Paper", url: "https://drive.google.com/file/d/1kqXtrpntNoeFsUY5BhPGHSu2vZF_sQDP/view?usp=drivesdk" },
               { type: "video", label: "▶ Discussion", url: "https://youtu.be/7q2b55AzExk" },
