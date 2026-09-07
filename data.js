@@ -11,13 +11,13 @@ const classData = [
         items: [
           { id: "ictr-drive", num: "📁", title: "All Tutes (Drive)", links: [{ type: "drive", label: "📂 Drive Folder", url: "https://drive.google.com/drive/folders/1tXJQcLDA0GyT74pAjpNVfXO5Qe0tXSva" }] },
           {
-            id: "ictr-d01", num: "01", title: "Revision Day 01",
+            id: "ictr-d01", num: "01", title: "Revision Day 01 (2026-08-11)",
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/r98grv3n72M?si=VWXMqVTuaUsLb37y" },
             ]
           },
           {
-            id: "ictr-d02", num: "02", title: "Revision Day 02",
+            id: "ictr-d02", num: "02", title: "Revision Day 02 (2026-08-18)",
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/D_TC0prVkTU" },
               { type: "pdf", label: "📄 Morning Paper 01", url: "https://drive.google.com/file/d/1kTvI5dxqcvDupJBf3MM7_NdmSHtNDFaC/view?usp=drivesdk" }
