@@ -31,7 +31,7 @@ const classData = [
             ]
           },
           {
-            id: "ictr-d04", num: "04", title: "Revision Day 04",
+            id: "ictr-d04", num: "04", title: "Revision Day 04 (2026-09-01)",
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/mHp_2uFd4og" },
               { type: "pdf", label: "📄 Morning Paper 03", url: "https://drive.google.com/file/d/1krLn7xwHdXb933-ffezU_SAoemaB4WZn/view?usp=drivesdk" }
