@@ -24,7 +24,7 @@ const classData = [
             ]
           },
           {
-            id: "ictr-d03", num: "03", title: "Revision Day 03",
+            id: "ictr-d03", num: "03", title: "Revision Day 03 (2026-08-25)",
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/b21W6WNmVGo?si=Dd6CUkuA4wXVIMLN" },
               { type: "pdf", label: "📄 Morning Paper 02", url: "https://drive.google.com/file/d/1zyZTxmJAVifTwdYwqhC9JXxfYq7o2HAa/view?usp=drivesdk" }
