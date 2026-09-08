@@ -9,32 +9,59 @@ const classData = [
       {
         title: "🎥 Revision Days + Morning Papers",
         items: [
-          { id: "ictr-drive", num: "📁", title: "All Tutes (Drive)", links: [{ type: "drive", label: "📂 Drive Folder", url: "https://drive.google.com/drive/folders/1tXJQcLDA0GyT74pAjpNVfXO5Qe0tXSva" }] },
+          { id: "ictr-malpipewi01book",
+            num: "B01",
+            title: "ඔබ වෙනුවෙන් මල් පිපේවී book 01",
+            links: [
+              { type: "pdf",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී book 01",
+                url: "https://drive.google.com/drive/folders/16k_S6V5Y1sQKPfjK6JDizC5rUeoN8-7g?usp=drive_link" 
+              }
+            ]
+          },
+
+          { id: "ictr-tute01", num: "📁", title: "Tutes set 01", links: [{ type: "drive", label: "📂 Tutes", url: "https://drive.google.com/drive/folders/1tXJQcLDA0GyT74pAjpNVfXO5Qe0tXSva" }] },
           {
             id: "ictr-d01", num: "01", title: "Revision Day 01 (2026-08-11)",
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/r98grv3n72M?si=VWXMqVTuaUsLb37y" },
+              { type: "pdf",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate Week 01",
+                url: "https://drive.google.com/file/d/1VM5bmJJpT3PbaKwPcT8O2C3BiH5737hG/view?usp=drive_link" 
+              }
             ]
           },
           {
             id: "ictr-d02", num: "02", title: "Revision Day 02 (2026-08-18)",
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/D_TC0prVkTU" },
-              { type: "pdf", label: "📄 Morning Paper 01", url: "https://drive.google.com/file/d/1kTvI5dxqcvDupJBf3MM7_NdmSHtNDFaC/view?usp=drivesdk" }
+              { type: "pdf", label: "📄 Morning Paper 01", url: "https://drive.google.com/file/d/1kTvI5dxqcvDupJBf3MM7_NdmSHtNDFaC/view?usp=drivesdk" },
+              { type: "pdf",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate Week 02",
+                url: "#" 
+              }
             ]
           },
           {
             id: "ictr-d03", num: "03", title: "Revision Day 03 (2026-08-25)",
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/b21W6WNmVGo?si=Dd6CUkuA4wXVIMLN" },
-              { type: "pdf", label: "📄 Morning Paper 02", url: "https://drive.google.com/file/d/1zyZTxmJAVifTwdYwqhC9JXxfYq7o2HAa/view?usp=drivesdk" }
+              { type: "pdf", label: "📄 Morning Paper 02", url: "https://drive.google.com/file/d/1zyZTxmJAVifTwdYwqhC9JXxfYq7o2HAa/view?usp=drivesdk" },
+              { type: "pdf",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate Week 03",
+                url: "https://drive.google.com/file/d/197_USCExbKvxxkuy66yCCCc66HRsLFJ3/view?usp=drive_link" 
+              }
             ]
           },
           {
             id: "ictr-d04", num: "04", title: "Revision Day 04 (2026-09-01)",
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/mHp_2uFd4og" },
-              { type: "pdf", label: "📄 Morning Paper 03", url: "https://drive.google.com/file/d/1krLn7xwHdXb933-ffezU_SAoemaB4WZn/view?usp=drivesdk" }
+              { type: "pdf", label: "📄 Morning Paper 03", url: "https://drive.google.com/file/d/1krLn7xwHdXb933-ffezU_SAoemaB4WZn/view?usp=drivesdk" },
+              { type: "pdf",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate Week 04",
+                url: "https://drive.google.com/file/d/1Xdfd4Oy6_ipaCXVOVEJDqToesvIFP9kk/view?usp=drive_link" 
+              }
             ]
           },
           {
