@@ -128,7 +128,7 @@ const classData = [
           {
             id: "ictp-05", num: "05", title: "IRC Paper No. 05 (2026-09-15)",
             links: [
-              { type: "pdf", label: "📄 Paper" url: "https://drive.google.com/file/d/1Jn6EaWNWCfQny-XQmeKVQeLf8_V3Z0HN/view?usp=drive_link" },
+              { type: "pdf", label: "📄 Paper", url: "https://drive.google.com/file/d/1Jn6EaWNWCfQny-XQmeKVQeLf8_V3Z0HN/view?usp=drive_link" },
               { type: "pending", label: "▶ Discussion – Pending" },
               { type: "pending", label: "✅ Marking – Pending" }
             ]
