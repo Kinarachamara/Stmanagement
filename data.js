@@ -67,7 +67,7 @@ const classData = [
           {
             id: "ictr-d05", num: "05", title: "Revision Day 05 (2026-09-08)",
             links: [
-              { type: "pending", label: "▶ Video", url: "#" },
+              { type: "video", label: "▶ Video", url: "https://youtu.be/JJWejAGSHko?si=MKmt9s2IDi3xkP7I" },
               { type: "pdf", label: "📄 Morning Paper 04", url: "https://drive.google.com/file/d/1TAOADbLDdnPq0sWr11ep1zX9fiK0_fLz/view?usp=drivesdk" }
             ]
           },
