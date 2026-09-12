@@ -16,6 +16,22 @@ const classData = [
               { type: "pdf",
                 label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී book 01",
                 url: "https://drive.google.com/drive/folders/16k_S6V5Y1sQKPfjK6JDizC5rUeoN8-7g?usp=drive_link" 
+              },
+              { type: "pdf",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate (Answer - Week 01)",
+                url: "https://drive.google.com/file/d/1VM5bmJJpT3PbaKwPcT8O2C3BiH5737hG/view?usp=drive_link" 
+              },
+              { type: "pdf",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate (Answer - Week 02)",
+                url: "https://drive.google.com/file/d/1YJLn7_5EWpQyyBjTuw8jqa67t_sSFFrb/view?usp=drive_link" 
+              },
+              { type: "pdf",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate (Answer - Week 03)",
+                url: "https://drive.google.com/file/d/197_USCExbKvxxkuy66yCCCc66HRsLFJ3/view?usp=drive_link" 
+              },
+              { type: "pdf",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate (Answer - Week 04)",
+                url: "https://drive.google.com/file/d/1Xdfd4Oy6_ipaCXVOVEJDqToesvIFP9kk/view?usp=drive_link" 
               }
             ]
           },
@@ -26,7 +42,7 @@ const classData = [
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/r98grv3n72M?si=VWXMqVTuaUsLb37y" },
               { type: "pdf",
-                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate Week 01",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate (Answer - Week 01)",
                 url: "https://drive.google.com/file/d/1VM5bmJJpT3PbaKwPcT8O2C3BiH5737hG/view?usp=drive_link" 
               }
             ]
@@ -37,8 +53,8 @@ const classData = [
               { type: "video", label: "▶ Video", url: "https://youtu.be/D_TC0prVkTU" },
               { type: "pdf", label: "📄 Morning Paper 01", url: "https://drive.google.com/file/d/1kTvI5dxqcvDupJBf3MM7_NdmSHtNDFaC/view?usp=drivesdk" },
               { type: "pdf",
-                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate Week 02",
-                url: "#" 
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate (Answer - Week 02)",
+                url: "https://drive.google.com/file/d/1YJLn7_5EWpQyyBjTuw8jqa67t_sSFFrb/view?usp=drive_link" 
               }
             ]
           },
@@ -48,7 +64,7 @@ const classData = [
               { type: "video", label: "▶ Video", url: "https://youtu.be/b21W6WNmVGo?si=Dd6CUkuA4wXVIMLN" },
               { type: "pdf", label: "📄 Morning Paper 02", url: "https://drive.google.com/file/d/1zyZTxmJAVifTwdYwqhC9JXxfYq7o2HAa/view?usp=drivesdk" },
               { type: "pdf",
-                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate Week 03",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate (Answer - Week 03)",
                 url: "https://drive.google.com/file/d/197_USCExbKvxxkuy66yCCCc66HRsLFJ3/view?usp=drive_link" 
               }
             ]
@@ -59,7 +75,7 @@ const classData = [
               { type: "video", label: "▶ Video", url: "https://youtu.be/mHp_2uFd4og" },
               { type: "pdf", label: "📄 Morning Paper 03", url: "https://drive.google.com/file/d/1krLn7xwHdXb933-ffezU_SAoemaB4WZn/view?usp=drivesdk" },
               { type: "pdf",
-                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate Week 04",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate (Answer - Week 04)",
                 url: "https://drive.google.com/file/d/1Xdfd4Oy6_ipaCXVOVEJDqToesvIFP9kk/view?usp=drive_link" 
               }
             ]
