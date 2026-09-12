@@ -11,7 +11,7 @@ const classData = [
         items: [
           { id: "ictr-malpipewi01book",
             num: "B01",
-            title: "ඔබ වෙනුවෙන් මල් පිපේවී book 01",
+            title: "ඔබ වෙනුවෙන් මල් පිපේවී book 01 (Logic Gate)",
             links: [
               { type: "pdf",
                 label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී book 01",
@@ -64,6 +64,18 @@ const classData = [
               }
             ]
           },
+
+          { id: "ictr-malpipewi02book",
+            num: "B02",
+            title: "ඔබ වෙනුවෙන් මල් පිපේවී book 02 (Operating System)",
+            links: [
+              { type: "pdf",
+                label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී book 02",
+                url: "https://drive.google.com/file/d/1sySDuSZmpJNlFqF2wLDHPSSy1seD5QdG/view?usp=drive_link" 
+              }
+            ]
+          },
+          
           {
             id: "ictr-d05", num: "05", title: "Revision Day 05 (2026-09-08)",
             links: [
