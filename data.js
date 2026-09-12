@@ -36,7 +36,17 @@ const classData = [
             ]
           },
 
-          { id: "ictr-tute01", num: "📁", title: "Tutes set 01", links: [{ type: "drive", label: "📂 Tutes", url: "https://drive.google.com/drive/folders/1tXJQcLDA0GyT74pAjpNVfXO5Qe0tXSva" }] },
+          { id: "ictr-tute01", num: "📁", title: "Tutes set 01", 
+           links: [
+            { type: "drive", 
+             label: "📎 lesson 10 tute 01 book 02 (html).pdf", 
+             url: "https://drive.google.com/file/d/1hFwzIT66MATeoZ2GGogONvEgrKAEd-pO/view?usp=drive_link" },
+             { type: "drive", 
+             label: "📎 lesson 06 tute 01 book 01 (network ip address).pdf ", 
+             url: "https://drive.google.com/file/d/1n3YiknhFbxQDrTOGnLl-MCR3xifrmXSK/view?usp=drive_link" },
+           ]
+          },
+          
           {
             id: "ictr-d01", num: "01", title: "Revision Day 01 (2026-08-11)",
             links: [
