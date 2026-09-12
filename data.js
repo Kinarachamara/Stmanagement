@@ -163,7 +163,7 @@ const classData = [
           {
             id: "ictp-06", num: "06", title: "IRC Paper No. 06",
             links: [
-              { type: "pending", label: "📄 IRC Paper No. 06 – Pending" },
+              { type: "pdf", label: "📄 IRC Paper No. 06" url:"https://drive.google.com/file/d/1BywRsxQWSyCj1Pqp-rgg18448QapZ3Ul/view?usp=drive_link" },
               { type: "pending", label: "▶ Discussion – Pending" },
               { type: "pending", label: "✅ Marking – Pending" }
             ]
