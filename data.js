@@ -73,6 +73,8 @@ const classData = [
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/b21W6WNmVGo?si=Dd6CUkuA4wXVIMLN" },
               { type: "pdf", label: "📄 Morning Paper 02", url: "https://drive.google.com/file/d/1zyZTxmJAVifTwdYwqhC9JXxfYq7o2HAa/view?usp=drivesdk" },
+              { type: "pdf", label: "✅ Morning Paper No 02 Marking", url: "https://drive.google.com/file/d/1WISGivJTZOUduc1TaaTi6PBwUKmD6AJB/view?usp=drivesdk" },
+
               { type: "pdf",
                 label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate (Answer - Week 03)",
                 url: "https://drive.google.com/file/d/197_USCExbKvxxkuy66yCCCc66HRsLFJ3/view?usp=drive_link" 
@@ -119,7 +121,9 @@ const classData = [
             id: "ictr-d05", num: "05", title: "Revision Day 05 (2026-09-08)",
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/JJWejAGSHko?si=MKmt9s2IDi3xkP7I" },
-              { type: "pdf", label: "📄 Morning Paper 04", url: "https://drive.google.com/file/d/1TAOADbLDdnPq0sWr11ep1zX9fiK0_fLz/view?usp=drivesdk" }
+              { type: "pdf", label: "📄 Morning Paper 04", url: "https://drive.google.com/file/d/1TAOADbLDdnPq0sWr11ep1zX9fiK0_fLz/view?usp=drivesdk" },
+              { type: "pending", label: "✅ Morning Paper No 04 Marking", url: "#" },
+
             ]
           },
           {
