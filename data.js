@@ -198,7 +198,7 @@ const classData = [
             links: [
               { type: "pdf", label: "📄 IRC Paper No. 04", url: "https://drive.google.com/file/d/1hflCbfo1F6_iCF3fmArVHIvsHsX8V56G/view?usp=drivesdk" },
               { type: "video", label: "▶ Discussion", url: "https://youtu.be/EF8fN97tmjM?si=GnMt3UBjqOKPRHfK" },
-              { type: "pending", label: "✅ Marking – Pending" }
+              { type: "pending", label: "✅ Marking", url: "https://drive.google.com/file/d/1nzgCAW03MPL1Cvmj1EB9K0P6vS8qLzrA/view?usp=drivesdk" },
             ]
           },
           {
