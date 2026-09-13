@@ -84,6 +84,8 @@ const classData = [
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/mHp_2uFd4og" },
               { type: "pdf", label: "📄 Morning Paper 03", url: "https://drive.google.com/file/d/1krLn7xwHdXb933-ffezU_SAoemaB4WZn/view?usp=drivesdk" },
+              { type: "pdf", label: "✅ Morning Paper No 03 Marking", url: "https://drive.google.com/file/d/1ZcuO4ItB4eaPvwuNMFltWwuo58FMKmpb/view?usp=drivesdk" },
+
               { type: "pdf",
                 label: "📝 ඔබ වෙනුවෙන් මල් පිපේවී logic gate (Answer - Week 04)",
                 url: "https://drive.google.com/file/d/1Xdfd4Oy6_ipaCXVOVEJDqToesvIFP9kk/view?usp=drive_link" 
