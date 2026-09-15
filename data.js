@@ -130,7 +130,7 @@ const classData = [
             id: "ictr-d06", num: "06", title: "Revision Day 06",
             links: [
               { type: "pending", label: "▶ Video", url: "#" },
-              { type: "pending", label: "📄 Morning Paper 05", url: "#" }
+              { type: "pdf", label: "📄 Morning Paper 05", url: "https://drive.google.com/file/d/1tR2ZiUT7KJRakb-WYJ3FnwDTJ0QSvZTw/view?usp=drivesdk" }
             ]
           },
           {
