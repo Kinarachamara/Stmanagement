@@ -129,7 +129,7 @@ const classData = [
           {
             id: "ictr-d06", num: "06", title: "Revision Day 06 (2026-09-15)",
             links: [
-              { type: "pending", label: "▶ Video", url: "#" },
+              { type: "video", label: "▶ Video", url: "https://youtu.be/gakDoqB-_gE?si=fhDmtjJPLemKB2_7" },
               { type: "pdf", label: "📄 Morning Paper 05", url: "https://drive.google.com/file/d/1tR2ZiUT7KJRakb-WYJ3FnwDTJ0QSvZTw/view?usp=drivesdk" },
               { type: "pending", label: "✅ Morning Paper No 05 Marking", url: "#" }
             ]
@@ -217,7 +217,7 @@ const classData = [
             ]
           },
           {
-            id: "ictp-06", num: "06", title: "IRC Paper No. 06",
+            id: "ictp-06", num: "06", title: "IRC Paper No. 06 (2026-09-22)",
             links: [
               { type: "pdf", label: "📄 IRC Paper No. 06", url: "https://drive.google.com/file/d/1BywRsxQWSyCj1Pqp-rgg18448QapZ3Ul/view?usp=drive_link" },
               { type: "pending", label: "▶ Discussion – Pending" },
