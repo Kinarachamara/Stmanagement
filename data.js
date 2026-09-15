@@ -291,6 +291,10 @@ const classData = [
             id: "sft-d09002", num: "09", title: "Day 09 - 2026-09-04 part 2",
             links: [{ type: "video", label: "▶ Recording (day 9 - Part 02)", url: "https://www.youtube.com/live/rxz7XNY3sN8?si=12criuLh-LMVBvjP" }]
           },
+          {
+            id: "sft-d10", num: "10", title: "Day 10 - 2026-09-12",
+            links: [{ type: "video", label: "▶ Recording (day 10)", url: "https://www.youtube.com/live/Pr5nwd1rzl8?si=JombuVogD1e7Vpbp" }]
+          },
         ]
       }
     ]
