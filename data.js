@@ -282,11 +282,13 @@ const classData = [
             id: "sft-d08", num: "08", title: "Day 08 - 2026-08-21",
             links: [{ type: "video", label: "▶ Recording", url: "https://www.youtube.com/live/INgoMTMPoUY?si=fBa0pOumW_WbVOMs" }]
           },
+
+          { id: "sft-df01", num: "📁", title: "Next lesson Tutes (Drive)", links: [{ type: "drive", label: "📂 Drive Folder", url: "https://drive.google.com/drive/folders/11-41I7-tL-GZN62dx_asgPQlE9nFsyfv" }] },
+          
           {
             id: "sft-d09001", num: "09", title: "Day 09 - 2026-09-04 part 1",
             links: [{ type: "video", label: "▶ Recording (day 9 - Part 01)", url: "https://www.youtube.com/live/mUfUaPkFR5g?si=SDe3piFfsd_WwCfV" }]
           },
-          { id: "sft-df01", num: "📁", title: "Next lesson Tutes (Drive)", links: [{ type: "drive", label: "📂 Drive Folder", url: "https://drive.google.com/drive/folders/11-41I7-tL-GZN62dx_asgPQlE9nFsyfv" }] },
           {
             id: "sft-d09002", num: "09", title: "Day 09 - 2026-09-04 part 2",
             links: [{ type: "video", label: "▶ Recording (day 9 - Part 02)", url: "https://www.youtube.com/live/rxz7XNY3sN8?si=12criuLh-LMVBvjP" }]
