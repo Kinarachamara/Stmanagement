@@ -297,6 +297,11 @@ const classData = [
             id: "sft-d10", num: "10", title: "Day 10 - 2026-09-12",
             links: [{ type: "video", label: "▶ Recording (day 10)", url: "https://www.youtube.com/live/Pr5nwd1rzl8" }]
           },
+
+          {
+            id: "sft-d11", num: "11", title: "Day 11 - 2026-09-19",
+            links: [{ type: "video", label: "▶ Recording (day 11)", url: "https://www.youtube.com/live/5izNP6ZROS4?si=PG80I6GL7mD1lMmN" }]
+          },
         ]
       }
     ]
