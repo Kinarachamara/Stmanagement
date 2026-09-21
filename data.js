@@ -135,10 +135,12 @@ const classData = [
             ]
           },
           {
-            id: "ictr-d07", num: "07", title: "Revision Day 07",
+            id: "ictr-d07", num: "07", title: "Revision Day 07 (2026-09-22)",
             links: [
               { type: "pending", label: "▶ Video", url: "#" },
-              { type: "pending", label: "📄 Morning Paper 06", url: "#" }
+              { type: "pending", label: "📄 Morning Paper 06", url: "#" },
+              { type: "pending", label: "✅ Morning Paper No 05 Marking", url: "#" }
+
             ]
           },
           {
