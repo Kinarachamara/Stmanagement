@@ -213,14 +213,14 @@ const classData = [
             links: [
               { type: "pdf", label: "📄 IRC Paper No. 05", url: "https://drive.google.com/file/d/1Jn6EaWNWCfQny-XQmeKVQeLf8_V3Z0HN/view?usp=drive_link" },
               { type: "video", label: "▶ Discussion", url: "https://youtu.be/1pEukwRJxEQ?si=pz5h82NdN6piWegz" },
-              { type: "pending", label: "✅ Marking – Pending" }
+              { type: "pdf", label: "✅ Marking", url: "https://drive.google.com/file/d/1qoQJelSNdb9FT1QrQRYYIlkoVB-KFqsV/view?usp=drivesdk" },
             ]
           },
           {
             id: "ictp-06", num: "06", title: "IRC Paper No. 06 (2026-09-22)",
             links: [
               { type: "pdf", label: "📄 IRC Paper No. 06", url: "https://drive.google.com/file/d/1BywRsxQWSyCj1Pqp-rgg18448QapZ3Ul/view?usp=drive_link" },
-              { type: "pending", label: "▶ Discussion – Pending" },
+              { type: "pending", label: "▶ Discussion", url: "#" },
               { type: "pending", label: "✅ Marking – Pending" }
             ]
           },
