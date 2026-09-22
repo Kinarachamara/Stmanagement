@@ -137,7 +137,7 @@ const classData = [
           {
             id: "ictr-d07", num: "07", title: "Revision Day 07 (2026-09-22)",
             links: [
-              { type: "pending", label: "▶ Video", url: "#" },
+              { type: "video", label: "▶ Video", url: "https://youtu.be/4QO21LRZhck" },
               { type: "pdf", label: "📄 Morning Paper 06", url: "https://drive.google.com/file/d/179ckCSPYIewOUmsKaxflcTtnAmjbA9W8/view?usp=drivesdk" },
               { type: "pending", label: "✅ Morning Paper No 06 Marking", url: "#" }
 
