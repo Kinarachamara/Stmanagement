@@ -139,7 +139,7 @@ const classData = [
             links: [
               { type: "pending", label: "▶ Video", url: "#" },
               { type: "pdf", label: "📄 Morning Paper 06", url: "https://drive.google.com/file/d/179ckCSPYIewOUmsKaxflcTtnAmjbA9W8/view?usp=drivesdk" },
-              { type: "pending", label: "✅ Morning Paper No 05 Marking", url: "#" }
+              { type: "pending", label: "✅ Morning Paper No 06 Marking", url: "#" }
 
             ]
           },
