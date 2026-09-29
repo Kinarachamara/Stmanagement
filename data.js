@@ -153,20 +153,6 @@ const classData = [
              url: "https://drive.google.com/file/d/1SKfgfOPBTlKp_Z6Tyo4UbdxYkZjCMcSl/view?usp=drivesdk" },
             ]
           },
-          {
-            id: "ictr-d09", num: "09", title: "Revision Day 09",
-            links: [
-              { type: "pending", label: "▶ Video", url: "#" },
-              { type: "pending", label: "📄 Morning Paper 08", url: "#" }
-            ]
-          },
-          {
-            id: "ictr-d10", num: "10", title: "Revision Day 10",
-            links: [
-              { type: "pending", label: "▶ Video", url: "#" },
-              { type: "pending", label: "📄 Morning Paper 09", url: "#" }
-            ]
-          }
         ]
       }
     ]
