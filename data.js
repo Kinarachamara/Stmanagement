@@ -38,10 +38,10 @@ const classData = [
 
           { id: "ictr-tute01", num: "📁", title: "Tutes set 01", 
            links: [
-            { type: "drive", 
+            { type: "pdf", 
              label: "📎 lesson 10 tute 01 book 02 (html).pdf", 
              url: "https://drive.google.com/file/d/1hFwzIT66MATeoZ2GGogONvEgrKAEd-pO/view?usp=drive_link" },
-             { type: "drive", 
+             { type: "pdf", 
              label: "📎 lesson 06 tute 01 book 01 (network ip address).pdf ", 
              url: "https://drive.google.com/file/d/1n3YiknhFbxQDrTOGnLl-MCR3xifrmXSK/view?usp=drive_link" },
            ]
@@ -108,10 +108,10 @@ const classData = [
 
            { id: "ictr-tute02", num: "📁", title: "Tutes set 02", 
            links: [
-            { type: "drive", 
+            { type: "pdf", 
              label: "📎 lesson 06 tute 01 book 02 (network subnet).pdf", 
              url: "https://drive.google.com/file/d/137N1oDjYrhfBrMmWQHUBSQ2KWRrktM1s/view?usp=drive_link" },
-             { type: "drive", 
+             { type: "pdf", 
              label: "📎 lesson 10 tute 02 book 01 (CSS).pdf", 
              url: "https://drive.google.com/file/d/1zQJ1bO84PfCZegKPHsYdxhu5Hi_1bLWM/view?usp=drive_link" },
            ]
