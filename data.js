@@ -150,7 +150,7 @@ const classData = [
               { type: "pdf", label: "📄 Morning Paper 07", url: "https://drive.google.com/file/d/1OSBMZEnV-Uwih7jw4eK3QgjILURqoONc/view?usp=drivesdk" },
               { type: "pdf", 
              label: "📎 OS SEMINAR.pdf", 
-             url: "" },
+             url: "https://drive.google.com/file/d/1SKfgfOPBTlKp_Z6Tyo4UbdxYkZjCMcSl/view?usp=drivesdk" },
             ]
           },
           {
