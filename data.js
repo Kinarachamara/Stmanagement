@@ -147,7 +147,7 @@ const classData = [
             id: "ictr-d08", num: "08", title: "Revision Day 08",
             links: [
               { type: "pending", label: "▶ Video", url: "#" },
-              { type: "pending", label: "📄 Morning Paper 07", url: "#" }
+              { type: "pdf", label: "📄 Morning Paper 07", url: "https://drive.google.com/file/d/1OSBMZEnV-Uwih7jw4eK3QgjILURqoONc/view?usp=drivesdk" }
             ]
           },
           {
