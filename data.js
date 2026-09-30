@@ -146,7 +146,7 @@ const classData = [
           {
             id: "osfs", num: "🟡", title: "Operating System Free Seminar",
             links: [
-              { type: "pending", label: "▶ Video", url: "#" },
+              { type: "video", label: "▶ Video", url: "https://youtu.be/sSJzLHvHBmU" },
               { type: "pdf", label: "📄 Morning Paper 07", url: "https://drive.google.com/file/d/1OSBMZEnV-Uwih7jw4eK3QgjILURqoONc/view?usp=drivesdk" },
               { type: "pdf", 
              label: "📎 OS SEMINAR.pdf", 
@@ -216,6 +216,16 @@ const classData = [
             ]
           },
           {
+            id: "osfs", num: "🟡", title: "Operating System Free Seminar",
+            links: [
+              { type: "video", label: "▶ Video", url: "https://youtu.be/sSJzLHvHBmU" },
+              { type: "pdf", label: "📄 Morning Paper 07", url: "https://drive.google.com/file/d/1OSBMZEnV-Uwih7jw4eK3QgjILURqoONc/view?usp=drivesdk" },
+              { type: "pdf", 
+             label: "📎 OS SEMINAR.pdf", 
+             url: "https://drive.google.com/file/d/1SKfgfOPBTlKp_Z6Tyo4UbdxYkZjCMcSl/view?usp=drivesdk" },
+            ]
+          },
+          {
             id: "ictp-07", num: "07", title: "IRC Paper No. 07",
             links: [
               { type: "pdf", label: "📄 IRC Paper No. 07", url: "https://drive.google.com/file/d/1J5rSTmpjMnwpOyLgCuToTkbuM7C08Ou6/view?usp=drivesdk" },
@@ -223,22 +233,6 @@ const classData = [
               { type: "pending", label: "✅ Marking – Pending" }
             ]
           },
-          {
-            id: "ictp-09", num: "09", title: "IRC Paper No. 09",
-            links: [
-              { type: "pending", label: "📄 Paper – Pending" },
-              { type: "pending", label: "▶ Discussion – Pending" },
-              { type: "pending", label: "✅ Marking – Pending" }
-            ]
-          },
-          {
-            id: "ictp-10", num: "10", title: "IRC Paper No. 10",
-            links: [
-              { type: "pending", label: "📄 Paper – Pending" },
-              { type: "pending", label: "▶ Discussion – Pending" },
-              { type: "pending", label: "✅ Marking – Pending" }
-            ]
-          }
         ]
       }
     ]
