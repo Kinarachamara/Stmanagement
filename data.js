@@ -381,4 +381,26 @@ const classData = [
       }
     ]
   },
+  {
+    id: "ETHADINWEEMA",
+    title: "ET - හැඳින්වීම",
+    badge: "ET හැඳින්වීම recording",
+    icon: "ℹ️",
+    color: "#0f172a",
+    cards: [
+      {
+        title: "🎥 Videos + Tutes",
+        items: [
+          { id: "ETHADINWEEMA-drive", num: "📁", title: "All Tutes (Drive)", links: [{ type: "Drive", label: "📂 Drive Folder", url: "https://drive.google.com/drive/folders/13gOb5cvYCdYy3mfMMYeqULG4Gx9HSVyv" }] },
+          { id: "ETHADINWEEMA-v-01", num: "01", title: "හැඳින්වීම Day 01", links: [{ type: "video", label: "▶ Video", url: "https://youtu.be/B9f9lqDu4y4?si=l4zMYHoxRRbvOOa_" }] },
+          { id: "ETHADINWEEMA-v-02", num: "02", title: "හැඳින්වීම Day 02", links: [{ type: "video", label: "▶ Video", url: "https://youtu.be/08gUtKH_9S8?si=IGsllEsIkZ5neUup" }] },
+          { id: "ETHADINWEEMA-v-03", num: "03", title: "හැඳින්වීම Day 03", links: [{ type: "video", label: "▶ Video", url: "https://youtu.be/Rrpayi7tuY0?si=S8UJUooFY0V3MxfK" }] },
+          { id: "ETHADINWEEMA-v-04", num: "04", title: "හැඳින්වීම Day 04", links: [{ type: "video", label: "▶ Video", url: "https://youtu.be/vpx2HWc3rew?si=CMjt6umfo0OX-WP7" }] },
+          { id: "ETHADINWEEMA-v-05", num: "05", title: "හැඳින්වීම Day 05", links: [{ type: "video", label: "▶ Video", url: "https://youtu.be/KZccmrLr7zg?si=bv0Dt-00SdAtFFDd" }] },
+          { id: "ETHADINWEEMA-v-06", num: "06", title: "හැඳින්වීම Day 06", links: [{ type: "video", label: "▶ Video", url: "https://youtu.be/dzDVnHOl--0?si=vatyJVeXWruBT5lh" }] },
+          { id: "ETHADINWEEMA-v-07", num: "07", title: "හැඳින්වීම Day 07", links: [{ type: "video", label: "▶ Video", url: "https://youtu.be/IjTNqOrOmBE?si=__xKJ-ol9LMaaJ97" }] },
+        ]
+      }
+    ]
+  },
 ];
