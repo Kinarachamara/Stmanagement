@@ -122,8 +122,6 @@ const classData = [
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/JJWejAGSHko?si=MKmt9s2IDi3xkP7I" },
               { type: "pdf", label: "📄 Morning Paper 04", url: "https://drive.google.com/file/d/1TAOADbLDdnPq0sWr11ep1zX9fiK0_fLz/view?usp=drivesdk" },
-              { type: "pending", label: "✅ Morning Paper No 04 Marking", url: "#" },
-
             ]
           },
           {
@@ -131,7 +129,6 @@ const classData = [
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/gakDoqB-_gE?si=fhDmtjJPLemKB2_7" },
               { type: "pdf", label: "📄 Morning Paper 05", url: "https://drive.google.com/file/d/1tR2ZiUT7KJRakb-WYJ3FnwDTJ0QSvZTw/view?usp=drivesdk" },
-              { type: "pending", label: "✅ Morning Paper No 05 Marking", url: "#" }
             ]
           },
           {
@@ -139,7 +136,6 @@ const classData = [
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/4QO21LRZhck" },
               { type: "pdf", label: "📄 Morning Paper 06", url: "https://drive.google.com/file/d/179ckCSPYIewOUmsKaxflcTtnAmjbA9W8/view?usp=drivesdk" },
-              { type: "pending", label: "✅ Morning Paper No 06 Marking", url: "#" }
 
             ]
           },
