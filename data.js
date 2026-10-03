@@ -230,7 +230,7 @@ const classData = [
             links: [
               { type: "pdf", label: "📄 IRC Paper No. 07", url: "https://drive.google.com/file/d/1J5rSTmpjMnwpOyLgCuToTkbuM7C08Ou6/view?usp=drivesdk" },
               { type: "pending", label: "▶ Discussion – Pending" },
-              { type: "pending", label: "✅ Marking – Pending" }
+              { type: "pdf", label: "✅ Marking", url: "https://drive.google.com/file/d/1dPGeL8ReaYErX1RckNrVhWzvCrD3INNZ/view?usp=drivesdk" },
             ]
           },
         ]
