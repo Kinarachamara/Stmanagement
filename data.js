@@ -212,7 +212,7 @@ const classData = [
             links: [
               { type: "pdf", label: "📄 IRC Paper No. 06", url: "https://drive.google.com/file/d/1BywRsxQWSyCj1Pqp-rgg18448QapZ3Ul/view?usp=drive_link" },
               { type: "video", label: "▶ Discussion", url: "https://youtu.be/x2ZC3w6VlQk" },
-              { type: "pending", label: "✅ Marking – Pending" }
+              { type: "pdf", label: "✅ Marking", url: "https://drive.google.com/file/d/1Q1EorQmFOb3o_e9LgU53bWkCPA69g8aI/view" },
             ]
           },
           {
