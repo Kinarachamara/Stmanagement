@@ -533,7 +533,12 @@ const classData = [
                 type: "video",
                 label: "▶ Video",
                 url: "https://www.youtube.com/live/QQ5gzY0Z6JU?si=C9qRNtxEezle8qHN"
-              }
+              },
+              {
+                type: "pdf",
+                label: "Seminar Tute it's available",
+                url: "https://kinarachamara.github.io/Stmanagement/jksdfhisdhfshgskjgs.html#UpulWirasingheSir/UpulWirasingheSir-v-01"
+              },
             ]
           }
         ]
