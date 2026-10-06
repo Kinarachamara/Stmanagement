@@ -228,10 +228,10 @@ const classData = [
             links: [
               { type: "pending", label: "▶ Video", url: "" },
               {
-                type: "pending",
-                label: "📄 Morning Paper 06",
-                url: ""
-              }
+                type: "pdf",
+                label: "📄 Morning Paper 07",
+                url: "https://drive.google.com/file/d/1OSBMZEnV-Uwih7jw4eK3QgjILURqoONc/view?usp=drivesdk"
+              },
             ]
           },
         ]
