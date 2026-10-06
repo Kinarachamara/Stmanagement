@@ -382,13 +382,13 @@ const classData = [
               {
                 type: "pdf",
                 label: "📄 IRC Paper No. 07",
-                url: "https://drive.google.com/file/d/1J5rSTmpjMnwpOyLgCuToTkbuM7C08Ou6/view?usp=drivesdk"
+                url: "https://drive.google.com/file/d/1uAs3LoZHwtUPBxOi0RI5r_tL_SFr2LKT/view?usp=drivesdk"
               },
               { type: "video", label: "▶ Discussion", url: "https://youtu.be/Zu-v3sZD4Fk?si=oxy4Gw2nEctQbVDg" },
               {
                 type: "pdf",
                 label: "✅ Marking",
-                url: "https://drive.google.com/file/d/1uAs3LoZHwtUPBxOi0RI5r_tL_SFr2LKT/view?usp=drivesdk"
+                url: "https://drive.google.com/file/d/1dPGeL8ReaYErX1RckNrVhWzvCrD3INNZ/view?usp=sharing"
               }
             ]
           },
