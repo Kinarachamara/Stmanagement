@@ -384,14 +384,32 @@ const classData = [
                 label: "📄 IRC Paper No. 07",
                 url: "https://drive.google.com/file/d/1J5rSTmpjMnwpOyLgCuToTkbuM7C08Ou6/view?usp=drivesdk"
               },
-              { type: "pending", label: "▶ Discussion – Pending" },
+              { type: "pending", label: "▶ Discussion – Pending", url: "" },
               {
                 type: "pdf",
                 label: "✅ Marking",
                 url: "https://drive.google.com/file/d/1dPGeL8ReaYErX1RckNrVhWzvCrD3INNZ/view?usp=drivesdk"
               }
             ]
-          }
+          },
+          {
+            id: "ictp-08",
+            num: "08",
+            title: "IRC Paper No. 08 (2026-10-13)",
+            links: [
+              {
+                type: "pending",
+                label: "📄 IRC Paper No. 08",
+                url: ""
+              },
+              { type: "pending", label: "▶ Discussion – Pending", url: "" },
+              {
+                type: "pending",
+                label: "✅ Marking",
+                url: ""
+              }
+            ]
+          },
         ]
       }
     ]
