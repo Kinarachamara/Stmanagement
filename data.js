@@ -384,7 +384,7 @@ const classData = [
                 label: "📄 IRC Paper No. 07",
                 url: "https://drive.google.com/file/d/1J5rSTmpjMnwpOyLgCuToTkbuM7C08Ou6/view?usp=drivesdk"
               },
-              { type: "pending", label: "▶ Discussion – Pending", url: "" },
+              { type: "video", label: "▶ Discussion", url: "https://youtu.be/Zu-v3sZD4Fk?si=oxy4Gw2nEctQbVDg" },
               {
                 type: "pdf",
                 label: "✅ Marking",
