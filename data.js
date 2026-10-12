@@ -517,25 +517,25 @@ const classData = [
             ]
           },
           {
-            id: "sft-d11",
+            id: "sft-d11001",
             num: "11",
-            title: "Day 11 - 2026-09-19",
+            title: "Day 11 - 2026-09-19 part 1",
             links: [
               {
                 type: "video",
-                label: "▶ Recording (day 11)",
+                label: "▶ Recording (day 11 - Part 01)",
                 url: "https://www.youtube.com/live/5izNP6ZROS4?si=PG80I6GL7mD1lMmN"
               }
             ]
           },
           {
-            id: "sft-d12",
-            num: "12",
-            title: "Day 12 - 2026-10-03",
+            id: "sft-d11002",
+            num: "11",
+            title: "Day 11 - 2026-10-03 part 2",
             links: [
               {
                 type: "video",
-                label: "▶ Recording (day 12)",
+                label: "▶ Recording (day 11 - Part 02)",
                 url: "https://www.youtube.com/watch?v=HeThJ6cl7nw"
               }
             ]
