@@ -527,7 +527,19 @@ const classData = [
                 url: "https://www.youtube.com/live/5izNP6ZROS4?si=PG80I6GL7mD1lMmN"
               }
             ]
-          }
+          },
+          {
+            id: "sft-d12",
+            num: "12",
+            title: "Day 12 - 2026-10-03",
+            links: [
+              {
+                type: "video",
+                label: "▶ Recording (day 12)",
+                url: ""
+              }
+            ]
+          },
         ]
       }
     ]
