@@ -552,6 +552,31 @@ const classData = [
               }
             ]
           },
+
+          {
+            id: "sft-d12001",
+            num: "12",
+            title: "Day 12 - 2026-10-10 part 1",
+            links: [
+              {
+                type: "video",
+                label: "▶ Recording (day 12 - Part 01)",
+                url: "https://www.youtube.com/watch?v=1rbyRmzNjtg"
+              }
+            ]
+          },
+          {
+            id: "sft-d12002",
+            num: "12",
+            title: "Day 12 - 2026-10-10 part 2",
+            links: [
+              {
+                type: "video",
+                label: "▶ Recording (day 12 - Part 02)",
+                url: "https://www.youtube.com/live/q9Evf18OJVU?si=1bwB4rjKFqEKGta2"
+              }
+            ]
+          },
         ]
       }
     ]
