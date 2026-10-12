@@ -541,19 +541,6 @@ const classData = [
             ]
           },
           {
-            id: "sft-d12",
-            num: "12",
-            title: "Day 12 - 2026-10-10",
-            links: [
-              {
-                type: "video",
-                label: "▶ Recording (day 12)",
-                url: "https://www.youtube.com/watch?v=1rbyRmzNjtg"
-              }
-            ]
-          },
-
-          {
             id: "sft-d12001",
             num: "12",
             title: "Day 12 - 2026-10-10 part 1",
