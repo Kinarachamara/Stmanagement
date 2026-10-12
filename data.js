@@ -536,7 +536,7 @@ const classData = [
               {
                 type: "video",
                 label: "▶ Recording (day 12)",
-                url: ""
+                url: "https://www.youtube.com/watch?v=HeThJ6cl7nw"
               }
             ]
           },
