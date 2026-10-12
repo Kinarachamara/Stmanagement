@@ -234,6 +234,19 @@ const classData = [
               },
             ]
           },
+          {
+            id: "ictr-d09",
+            num: "09",
+            title: "Revision Day 09 (2026-10-13)",
+            links: [
+              { type: "pending", label: "▶ Video", url: "" },
+              {
+                type: "pending",
+                label: "📄 Morning Paper 08",
+                url: ""
+              },
+            ]
+          },
         ]
       }
     ]
@@ -474,10 +487,15 @@ const classData = [
             title: "Next lesson Tutes (Drive)",
             links: [
               {
-                type: "drive",
-                label: "📂 Drive Folder",
-                url: "https://drive.google.com/drive/folders/11-41I7-tL-GZN62dx_asgPQlE9nFsyfv"
-              }
+                type: "pdf",
+                label: "unit 8 කෝණික චලිතය Revision tute.pdf",
+                url: "https://drive.google.com/file/d/1yzbiO8EK62fhPws4WLxU9Iwgp5SMK5_U/view?usp=drive_link"
+              },
+              {
+                type: "pdf",
+                label: "කාර්ය ශක්තිය හා ක්ෂමතාව Revision tute.pdf",
+                url: "https://drive.google.com/file/d/1AiQ42c9JyAgugTlwrvAKoqB6DVTDG0ZD/view?usp=drive_link"
+              },
             ]
           },
           {
@@ -562,6 +580,18 @@ const classData = [
                 label: "▶ Recording (day 12 - Part 02)",
                 url: "https://www.youtube.com/live/q9Evf18OJVU?si=1bwB4rjKFqEKGta2"
               }
+            ]
+          },
+          {
+            id: "sft-df02",
+            num: "📁",
+            title: "Next lesson Tutes (Drive)",
+            links: [
+              {
+                type: "pending",
+                label: "unit 1 ගණිතය Revision tute.pdf",
+                url: ""
+              },
             ]
           },
         ]
@@ -897,4 +927,3 @@ const classData = [
   },
 
 ];
-
