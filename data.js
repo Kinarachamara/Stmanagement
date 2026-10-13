@@ -252,15 +252,15 @@ const classData = [
             title: "Revision Day 09 (2026-10-13)",
             links: [
               {
-                type: "pdf",
+                type: "pending",
                 label: "📎 lesson 07 Tute 01 දත්ත සමුදා කළමනාකරණ පද්ධති (BDSM).pdf",
                 url: "https://drive.google.com/file/d/1jBt75nwrmPQEVgZ_MbyB2_YJDCjCni5A/view?usp=drivesdk"
               },
-              { type: "pending", label: "▶ Video", url: "" },
+              { type: "video", label: "▶ Video", url: "https://youtu.be/7f31ldh6XTM" },
               {
-                type: "pending",
+                type: "pdf",
                 label: "📄 Morning Paper 08",
-                url: ""
+                url: "https://drive.google.com/file/d/10fx_UVqvRvIXAvnT_I9oEYS392XBKN_I/view?usp=drive_link"
               },
             ]
           },
