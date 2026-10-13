@@ -242,7 +242,7 @@ const classData = [
               {
                 type: "pdf",
                 label: "📎 lesson 07 Tute 01 දත්ත සමුදා කළමනාකරණ පද්ධති (BDSM).pdf",
-                url: "https://drive.google.com/file/d/1jBt75nwrmPQEVgZ_MbyB2_YJDCjCni5A/view?usp=drivesdk"
+                url: "https://drive.google.com/file/d/1QycAe1nhC7W4ta1jrq2-Yh0byGR4otpZ/view?usp=drive_link"
               },
             ]
           },
@@ -251,11 +251,6 @@ const classData = [
             num: "09",
             title: "Revision Day 09 (2026-10-13)",
             links: [
-              {
-                type: "pending",
-                label: "📎 lesson 07 Tute 01 දත්ත සමුදා කළමනාකරණ පද්ධති (BDSM).pdf",
-                url: "https://drive.google.com/file/d/1jBt75nwrmPQEVgZ_MbyB2_YJDCjCni5A/view?usp=drivesdk"
-              },
               { type: "video", label: "▶ Video", url: "https://youtu.be/7f31ldh6XTM" },
               {
                 type: "pdf",
