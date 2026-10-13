@@ -235,10 +235,27 @@ const classData = [
             ]
           },
           {
+            id: "ictr-tute03",
+            num: "📁",
+            title: "Tutes set 03",
+            links: [
+              {
+                type: "pdf",
+                label: "📎 lesson 07 Tute 01 දත්ත සමුදා කළමනාකරණ පද්ධති (BDSM).pdf",
+                url: "https://drive.google.com/file/d/1jBt75nwrmPQEVgZ_MbyB2_YJDCjCni5A/view?usp=drivesdk"
+              },
+            ]
+          },
+          {
             id: "ictr-d09",
             num: "09",
             title: "Revision Day 09 (2026-10-13)",
             links: [
+              {
+                type: "pdf",
+                label: "📎 lesson 07 Tute 01 දත්ත සමුදා කළමනාකරණ පද්ධති (BDSM).pdf",
+                url: "https://drive.google.com/file/d/1jBt75nwrmPQEVgZ_MbyB2_YJDCjCni5A/view?usp=drivesdk"
+              },
               { type: "pending", label: "▶ Video", url: "" },
               {
                 type: "pending",
