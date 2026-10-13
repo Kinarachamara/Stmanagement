@@ -44,7 +44,7 @@ const classData = [
           {
             id: "ictr-tute01",
             num: "📁",
-            title: "Tutes set 01",
+            title: "Tute set No.01",
             links: [
               {
                 type: "pdf",
@@ -150,7 +150,7 @@ const classData = [
           {
             id: "ictr-tute02",
             num: "📁",
-            title: "Tutes set 02",
+            title: "Tute set No.02",
             links: [
               {
                 type: "pdf",
@@ -237,7 +237,7 @@ const classData = [
           {
             id: "ictr-tute03",
             num: "📁",
-            title: "Tutes set 03",
+            title: "Tute set No.03",
             links: [
               {
                 type: "pdf",
