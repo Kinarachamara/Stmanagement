@@ -611,7 +611,7 @@ const classData = [
     ]
   },
   {
-    id: "UpulWirasingheSir",
+    id: "UpulWirasingheSirSankhaanaya",
     title: "සංඛ්‍යානය & ඛණ්ඩාංක ජ්‍යාමිතිය - SFT Upul Wirasingha",
     badge: "සංඛ්‍යානය & ඛණ්ඩාංක ජ්‍යාමිතිය Night seminar",
     icon: "ℹ️",
@@ -642,7 +642,105 @@ const classData = [
     ]
   },
   {
-    id: "water",
+    id: "ETDRAWING",
+    title: "ET - ඉංජිනේරු ඇදීම (DRAWING)",
+    badge: "ET ඉංජිනේරු ඇදීම",
+    icon: "🎨",
+    color: "#e50d0d",
+    cards: [
+      {
+        title: "🎥 Videos + Tutes",
+        items: [
+          {
+            id: "ETDRAWING-v-01",
+            num: "01",
+            title: "ඉංජිනේරු ඇදීම Day 01",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 01 Video", url: "https://youtu.be/wdDhNEiNXMg?si=I6VgkVF5gW5iTT0K" }]
+          },
+          {
+            id: "ETDRAWING-v-02",
+            num: "02",
+            title: "ඉංජිනේරු ඇදීම Day 02",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 02 Video", url: "https://youtu.be/sVak5Qo993o?si=R0cULSPPfD0K6AYA" }]
+          },
+          {
+            id: "ETDRAWING-v-03",
+            num: "03",
+            title: "ඉංජිනේරු ඇදීම Day 03",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 03 Video", url: "https://youtu.be/CU2EnmFx6H8?si=-VsoA5wM6E8Qal2Y" }]
+          },
+          {
+            id: "ETDRAWING-v-04",
+            num: "04",
+            title: "ඉංජිනේරු ඇදීම Day 04",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 04 Video", url: "https://youtu.be/6rmcy99ms-4?si=iWYggBUzTePcf836" }]
+          },
+          {
+            id: "ETDRAWING-v-05",
+            num: "05",
+            title: "ඉංජිනේරු ඇදීම Day 05",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 05 Video", url: "https://youtu.be/fGAqhmtzMmo?si=xbDFiOqWt7cwFRsK" }]
+          },
+          {
+            id: "ETDRAWING-v-06",
+            num: "06",
+            title: "ඉංජිනේරු ඇදීම Day 06",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 06 Video", url: "https://youtu.be/8lbVKhgGVks?si=FGdLjM9G32yWvXAR" }]
+          },
+          {
+            id: "ETDRAWING-v-07",
+            num: "07",
+            title: "ඉංජිනේරු ඇදීම Day 07",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 07 Video", url: "https://youtu.be/63gtt4sHa3s?si=rW8qczoX1Ik9MgJ8" }]
+          },
+          {
+            id: "ETDRAWING-v-08",
+            num: "08",
+            title: "ඉංජිනේරු ඇදීම Day 08",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 08 Video", url: "https://youtu.be/u-jFU__I2pY?si=TDUHRc2Dl8j4vG3Y" }]
+          },
+          {
+            id: "ETDRAWING-v-09",
+            num: "09",
+            title: "ඉංජිනේරු ඇදීම Day 09",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 09 Video", url: "https://youtu.be/jpntwdrLEJA?si=kZlxpj20AKdJ-R81" }]
+          },,
+          {
+            id: "ETDRAWING-v-10",
+            num: "10",
+            title: "ඉංජිනේරු ඇදීම Day 10",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 10 Video", url: "https://youtu.be/1-PcI-vAeYc?si=yuHvYoqJhy5RWePE" }]
+          },
+          {
+            id: "ETDRAWING-v-11",
+            num: "11",
+            title: "ඉංජිනේරු ඇදීම Day 11 (විකසන 01)",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 11 Video", url: "https://youtu.be/bsXYPOLy4oo?si=xpOjY_0ZfPlXhN1S" }]
+          },,
+          {
+            id: "ETDRAWING-v-12",
+            num: "12",
+            title: "ඉංජිනේරු ඇදීම Day 12 (විකසන 02)",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 12 Video", url: "https://youtu.be/qlXeYQHOGEg?si=LFG5nAfjgZT71RUZ" }]
+          },
+          {
+            id: "ETDRAWING-v-13",
+            num: "13",
+            title: "ඉංජිනේරු ඇදීම Day 13 (විකසන 03)",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 13 Video", url: "https://youtu.be/BqppS4nDikU?si=nQ7Lddp-dQ_taBxn" }]
+          },,
+          {
+            id: "ETDRAWING-v-14",
+            num: "14",
+            title: "ඉංජිනේරු ඇදීම Day 14 (විකසන 04)",
+            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 14 Video", url: "https://youtu.be/VlpKM3_jbKs?si=XDB58MmFaCmDPDts" }]
+          },
+        ]
+      }
+    ]
+  },
+  {
+    id: "ETwater",
     title: "ET - ජල සම්පාදනය සහ කසල අපවහනය",
     badge: "ET ජල සම්පාදනය සහ කසල අපවහනය recording",
     icon: "💧",
@@ -698,7 +796,7 @@ const classData = [
     ]
   },
   {
-    id: "et",
+    id: "ETElectrical",
     title: "ET – Electrical Recordings",
     badge: "BASIC Electrical",
     icon: "⚡",
@@ -937,104 +1035,4 @@ const classData = [
       }
     ]
   },
-
-  {
-    id: "ETDRAWING",
-    title: "ET - ඉංජිනේරු ඇදීම (DRAWING)",
-    badge: "ET ඉංජිනේරු ඇදීම",
-    icon: "🎨",
-    color: "#e50d0d",
-    cards: [
-      {
-        title: "🎥 Videos + Tutes",
-        items: [
-          {
-            id: "ETDRAWING-v-01",
-            num: "01",
-            title: "ඉංජිනේරු ඇදීම Day 01",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 01 Video", url: "https://youtu.be/wdDhNEiNXMg?si=I6VgkVF5gW5iTT0K" }]
-          },
-          {
-            id: "ETDRAWING-v-02",
-            num: "02",
-            title: "ඉංජිනේරු ඇදීම Day 02",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 02 Video", url: "https://youtu.be/sVak5Qo993o?si=R0cULSPPfD0K6AYA" }]
-          },
-          {
-            id: "ETDRAWING-v-03",
-            num: "03",
-            title: "ඉංජිනේරු ඇදීම Day 03",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 03 Video", url: "https://youtu.be/CU2EnmFx6H8?si=-VsoA5wM6E8Qal2Y" }]
-          },
-          {
-            id: "ETDRAWING-v-04",
-            num: "04",
-            title: "ඉංජිනේරු ඇදීම Day 04",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 04 Video", url: "https://youtu.be/6rmcy99ms-4?si=iWYggBUzTePcf836" }]
-          },
-          {
-            id: "ETDRAWING-v-05",
-            num: "05",
-            title: "ඉංජිනේරු ඇදීම Day 05",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 05 Video", url: "https://youtu.be/fGAqhmtzMmo?si=xbDFiOqWt7cwFRsK" }]
-          },
-          {
-            id: "ETDRAWING-v-06",
-            num: "06",
-            title: "ඉංජිනේරු ඇදීම Day 06",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 06 Video", url: "https://youtu.be/8lbVKhgGVks?si=FGdLjM9G32yWvXAR" }]
-          },
-          {
-            id: "ETDRAWING-v-07",
-            num: "07",
-            title: "ඉංජිනේරු ඇදීම Day 07",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 07 Video", url: "https://youtu.be/63gtt4sHa3s?si=rW8qczoX1Ik9MgJ8" }]
-          },
-          {
-            id: "ETDRAWING-v-08",
-            num: "08",
-            title: "ඉංජිනේරු ඇදීම Day 08",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 08 Video", url: "https://youtu.be/u-jFU__I2pY?si=TDUHRc2Dl8j4vG3Y" }]
-          },
-          {
-            id: "ETDRAWING-v-09",
-            num: "09",
-            title: "ඉංජිනේරු ඇදීම Day 09",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 09 Video", url: "https://youtu.be/jpntwdrLEJA?si=kZlxpj20AKdJ-R81" }]
-          },,
-          {
-            id: "ETDRAWING-v-10",
-            num: "10",
-            title: "ඉංජිනේරු ඇදීම Day 10",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 10 Video", url: "https://youtu.be/1-PcI-vAeYc?si=yuHvYoqJhy5RWePE" }]
-          },
-          {
-            id: "ETDRAWING-v-11",
-            num: "11",
-            title: "ඉංජිනේරු ඇදීම Day 11 (විකසන 01)",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 11 Video", url: "https://youtu.be/bsXYPOLy4oo?si=xpOjY_0ZfPlXhN1S" }]
-          },,
-          {
-            id: "ETDRAWING-v-12",
-            num: "12",
-            title: "ඉංජිනේරු ඇදීම Day 12 (විකසන 02)",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 12 Video", url: "https://youtu.be/qlXeYQHOGEg?si=LFG5nAfjgZT71RUZ" }]
-          },
-          {
-            id: "ETDRAWING-v-13",
-            num: "13",
-            title: "ඉංජිනේරු ඇදීම Day 13 (විකසන 03)",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 13 Video", url: "https://youtu.be/BqppS4nDikU?si=nQ7Lddp-dQ_taBxn" }]
-          },,
-          {
-            id: "ETDRAWING-v-14",
-            num: "14",
-            title: "ඉංජිනේරු ඇදීම Day 14 (විකසන 04)",
-            links: [{ type: "video", label: "▶ ඉංජිනේරු ඇදීම Day 14 Video", url: "https://youtu.be/VlpKM3_jbKs?si=XDB58MmFaCmDPDts" }]
-          },
-        ]
-      }
-    ]
-  },
-
 ];
