@@ -912,7 +912,7 @@ const classData = [
     ]
   },
   {
-    id: "ETwater",
+    id: "ETWATER",
     title: "ET - ජල සම්පාදනය සහ කසල අපවහනය",
     badge: "ET ජල සම්පාදනය සහ කසල අපවහනය recording",
     icon: "💧",
