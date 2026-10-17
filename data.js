@@ -698,6 +698,110 @@ const classData = [
     ]
   },
   {
+  id: "ETCIVILENGINEERING",
+  title: "ET - සිවිල් තාක්ෂණවේදය (CIVIL ENGINEERING)",
+  badge: "ET සිවිල් තාක්ෂණවේදය",
+  icon: "🛠️",
+  color: "#d0cfce",
+  cards: [
+    {
+      title: "🎥 Videos + Tutes",
+      items: [
+        {
+          id: "ETCIVILENGINEERING-v-01",
+          num: "01",
+          title: "සිවිල් තාක්ෂණවේදය Day 01",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 01 Video", url: "https://www.youtube.com/watch?v=BZkD3UlvCyg" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-02",
+          num: "02",
+          title: "සිවිල් තාක්ෂණවේදය Day 02",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 02 Video", url: "https://www.youtube.com/watch?v=i55PJiXEq8g" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-03",
+          num: "03",
+          title: "සිවිල් තාක්ෂණවේදය Day 03",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 03 Video", url: "https://www.youtube.com/watch?v=AE5BrJ_qhSE" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-04",
+          num: "04",
+          title: "සිවිල් තාක්ෂණවේදය Day 04",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 04 Video", url: "https://www.youtube.com/watch?v=niU1HWDPeZ4" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-05",
+          num: "05",
+          title: "සිවිල් තාක්ෂණවේදය Day 05",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 05 Video", url: "https://www.youtube.com/watch?v=XCEPJRU-uiM" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-06",
+          num: "06",
+          title: "සිවිල් තාක්ෂණවේදය Day 06",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 06 Video", url: "https://www.youtube.com/watch?v=USNqTuHenq8a" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-07",
+          num: "07",
+          title: "සිවිල් තාක්ෂණවේදය Day 07",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 07 Video", url: "https://www.youtube.com/watch?v=3cN3n5JPiH8" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-08",
+          num: "08",
+          title: "සිවිල් තාක්ෂණවේදය Day 08",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 08 Video", url: "https://www.youtube.com/watch?v=elqpvbx05OY" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-09",
+          num: "09",
+          title: "සිවිල් තාක්ෂණවේදය Day 09",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 09 Video", url: "https://www.youtube.com/watch?v=zUaB_xmSRuw" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-10",
+          num: "10",
+          title: "සිවිල් තාක්ෂණවේදය Day 10",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 10 Video", url: "https://www.youtube.com/watch?v=kqOdGqHq6pЕ" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-11",
+          num: "11",
+          title: "සිවිල් තාක්ෂණවේදය Day 11",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 11 Video", url: "https://www.youtube.com/watch?v=tTSuhx6d0aw" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-12",
+          num: "12",
+          title: "සිවිල් තාක්ෂණවේදය Day 12",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 12 Video", url: "https://www.youtube.com/watch?v=xrnw0QwSubk" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-13",
+          num: "13",
+          title: "සිවිල් තාක්ෂණවේදය Day 13",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 13 Video", url: "https://www.youtube.com/watch?v=hEy5gphdWb4" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-14",
+          num: "14",
+          title: "සිවිල් තාක්ෂණවේදය Day 14",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 14 Video", url: "https://www.youtube.com/watch?v=QY-YA-IKecQ" }]
+        },
+        {
+          id: "ETCIVILENGINEERING-v-15",
+          num: "15",
+          title: "සිවිල් තාක්ෂණවේදය Day 15",
+          links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 15 Video", url: "https://www.youtube.com/watch?v=-N9KpbxRG6Q" }]
+        }
+      ]
+    }
+  ]
+},
+  {
     id: "ETDRAWING",
     title: "ET - ඉංජිනේරු ඇදීම (DRAWING)",
     badge: "ET ඉංජිනේරු ඇදීම",
