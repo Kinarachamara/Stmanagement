@@ -799,13 +799,13 @@ const classData = [
         },
         {
           id: "ETCIVILENGINEERING-v-16",
-          num: "15",
+          num: "16",
           title: "සිවිල් තාක්ෂණවේදය Day 16",
           links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 16 Video", url: "https://www.youtube.com/watch?v=QY-yA-lKecQ" }]
         },
         {
           id: "ETCIVILENGINEERING-v-17",
-          num: "14",
+          num: "17",
           title: "සිවිල් තාක්ෂණවේදය Day 17",
           links: [{ type: "video", label: "▶ සිවිල් තාක්ෂණවේදය Day 17 Video", url: "https://www.youtube.com/watch?v=fqVWHX4hxlo" }]
         },
