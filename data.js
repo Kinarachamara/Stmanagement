@@ -687,7 +687,7 @@ const classData = [
                 url: "https://www.youtube.com/live/QQ5gzY0Z6JU?si=C9qRNtxEezle8qHN"
               },
               {
-                type: "pdf",
+                type: "pending",
                 label: "Seminar Tute it's available",
                 url: "https://kinarachamara.github.io/Stmanagement/jksdfhisdhfshgskjgs.html#UpulWirasingheSir/UpulWirasingheSir-v-01"
               },
