@@ -595,6 +595,18 @@ const classData = [
             ]
           },
           {
+            id: "sft-d13",
+            num: "13",
+            title: "Day 13 - 2026-10-18",
+            links: [
+              {
+                type: "video",
+                label: "▶ Recording (day 13)",
+                url: "https://www.youtube.com/live/IoCOf3yfUJI?si=-g61cZNG5EDCqQdl"
+              }
+            ]
+          },
+          {
             id: "sft-df02",
             num: "📁",
             title: "Next lesson Tutes (Drive)",
