@@ -259,6 +259,19 @@ const classData = [
               },
             ]
           },
+          {
+            id: "ictr-d10",
+            num: "10",
+            title: "Revision Day 10 (2026-10-20)",
+            links: [
+              { type: "pending", label: "▶ Video", url: "#" },
+              {
+                type: "pdf",
+                label: "📄 Morning Paper 09",
+                url: "https://drive.google.com/file/d/1KYZ_yihQsmXz1wzEeUOYf18oDAlBnX6I/view?usp=drive_link"
+              },
+            ]
+          },
         ]
       }
     ]
