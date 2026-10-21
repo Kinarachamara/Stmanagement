@@ -692,37 +692,6 @@ const classData = [
   ]
 },
   {
-    id: "UpulWirasingheSirSankhaanaya",
-    title: "සංඛ්‍යානය & ඛණ්ඩාංක ජ්‍යාමිතිය - SFT Upul Wirasingha",
-    badge: "සංඛ්‍යානය & ඛණ්ඩාංක ජ්‍යාමිතිය Night seminar",
-    icon: "ℹ️",
-    color: "#0f473a",
-    cards: [
-      {
-        title: "🎥 Video only",
-        items: [
-          {
-            id: "UpulWirasingheSir-v-01",
-            num: "🧠",
-            title: "සංඛ්‍යානය & ඛණ්ඩාංක ජ්‍යාමිතිය",
-            links: [
-              {
-                type: "video",
-                label: "▶ Video",
-                url: "https://www.youtube.com/live/QQ5gzY0Z6JU?si=C9qRNtxEezle8qHN"
-              },
-              {
-                type: "pending",
-                label: "Seminar Tute it's available",
-                url: "https://kinarachamara.github.io/Stmanagement/jksdfhisdhfshgskjgs.html#UpulWirasingheSir/UpulWirasingheSir-v-01"
-              },
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
   id: "ETCIVILENGINEERING",
   title: "ET - සිවිල් තාක්ෂණවේදය (CIVIL ENGINEERING)",
   badge: "ET සිවිල් තාක්ෂණවේදය",
