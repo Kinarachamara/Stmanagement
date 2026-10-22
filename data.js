@@ -264,7 +264,7 @@ const classData = [
             num: "10",
             title: "Revision Day 10 (2026-10-20)",
             links: [
-              { type: "pending", label: "▶ Video", url: "#" },
+              { type: "video", label: "▶ Video", url: "https://youtu.be/AVr_3XmX5Xw?si=8GqqZfNsvps1C-ml" },
               {
                 type: "pdf",
                 label: "📄 Morning Paper 09",
