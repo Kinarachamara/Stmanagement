@@ -651,7 +651,7 @@ const classData = [
                 title: "Silver Paper No.27",
                 links: [
                   { type: "video", label: "Silver Paper No.27 Discussion", url: "https://www.youtube.com/live/h0kjgHLrJ9o?si=Hn0BD4qkRVZ_FoSI" },
-                  { type: "pdf", label: "Silver Paper No.27.pdf", url: "" },
+                  { type: "pdf", label: "Silver Paper No.27.pdf", url: "https://drive.google.com/file/d/1PGGKSce3An9SKNyv3nReJy83t22TQdeN/view?usp=drive_link" },
 
                 ]
               },
@@ -662,7 +662,7 @@ const classData = [
                 links: [
                   { type: "video", label: "Silver Paper No.28 Discussion part 1", url: "https://www.youtube.com/live/X6Vk3C-BQQk?si=SrZGLVF2G-MKVjle" },
                   { type: "video", label: "Silver Paper No.28 Discussion part 2", url: "https://www.youtube.com/live/Pycr0xSQRuM?si=h3LCh91bozhll96D"},
-                  { type: "pdf", label: "Silver Paper No.28.pdf", url: "" },
+                  { type: "pdf", label: "Silver Paper No.28.pdf", url: "https://drive.google.com/file/d/1o2ZyfNBfMR14sd8vXFktGc0kEdSwhJIU/view?usp=drive_link" },
                 ]
               },
               {
@@ -671,7 +671,7 @@ const classData = [
                 title: "Silver Paper No.29",
                 links: [
                   { type: "pending", label: "Silver Paper No.29 Discussion", url: "" },
-                  { type: "pdf", label: "Silver Paper No.29.pdf", url: "" },
+                  { type: "pdf", label: "Silver Paper No.29.pdf", url: "https://drive.google.com/file/d/1CPK_fL9hCHbFoGnzid8oBAz0TL3Io0W2/view?usp=drive_link" },
                 ]
               },
               {
@@ -680,7 +680,7 @@ const classData = [
                 title: "Silver Paper No.30",
                 links: [
                   { type: "pending", label: "Silver Paper No.30 Discussion", url: "" },
-                  { type: "pdf", label: "Silver Paper No.30.pdf", url: "" },
+                  { type: "pdf", label: "Silver Paper No.30.pdf", url: "https://drive.google.com/file/d/1BDUjJVkcIr3HhAfRACvO4K-5ZguFM01R/view?usp=drive_link" },
                 ]
               },
             ]
