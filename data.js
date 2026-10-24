@@ -625,9 +625,9 @@ const classData = [
             title: "Next lesson Tutes (Drive)",
             links: [
               {
-                type: "pending",
+                type: "pdf",
                 label: "unit 1 ගණිතය Revision tute.pdf",
-                url: ""
+                url: "https://drive.google.com/file/d/1hsw9wlyyrjZOvlhNj7BlvzpE0SYe7stZ/view?usp=drive_link"
               },
             ]
           },
@@ -635,62 +635,114 @@ const classData = [
       }
     ]
   },
-  {
-  id: "ETSAFETY",
-  title: "ET - සෞඛ්‍ය හා ආරක්ෂාව (SAFETY)",
-  badge: "ET සෞඛ්‍ය හා ආරක්ෂාව",
-  icon: "🩺",
-  color: "#0056b3",
-  cards: [
-    {
-      title: "🎥 Videos + Tutes",
-      items: [
+      {
+        id: "SFT-paper",
+        title: "SFT Paper Discussion",
+        badge: "2027 A/L SFT Paper Discussion Malith Wasalage",
+        icon: "🚀",
+        color: "#23d090",
+        cards: [
+          {
+            title: "2027 A/L SFT Paper Discussion Malith Wasalage",
+            items: [
+              {
+                id: "SFT-SilverPaper27",
+                num: "27",
+                title: "Silver Paper No.27",
+                links: [
+                  { type: "video", label: "Silver Paper No.27 Discussion", url: "https://www.youtube.com/live/h0kjgHLrJ9o?si=Hn0BD4qkRVZ_FoSI" },
+                  { type: "pdf", label: "Silver Paper No.27.pdf", url: "" },
+
+                ]
+              },
+              {
+                id: "SFT-SilverPaper28",
+                num: "28",
+                title: "Silver Paper No.28",
+                links: [
+                  { type: "video", label: "Silver Paper No.28 Discussion part 1", url: "https://www.youtube.com/live/X6Vk3C-BQQk?si=SrZGLVF2G-MKVjle" },
+                  { type: "video", label: "Silver Paper No.28 Discussion part 2", url: "https://www.youtube.com/live/Pycr0xSQRuM?si=h3LCh91bozhll96D"},
+                  { type: "pdf", label: "Silver Paper No.28.pdf", url: "" },
+                ]
+              },
+              {
+                id: "SFT-SilverPaper29",
+                num: "29",
+                title: "Silver Paper No.29",
+                links: [
+                  { type: "pending", label: "Silver Paper No.29 Discussion", url: "" },
+                  { type: "pdf", label: "Silver Paper No.29.pdf", url: "" },
+                ]
+              },
+              {
+                id: "SFT-SilverPaper30",
+                num: "30",
+                title: "Silver Paper No.30",
+                links: [
+                  { type: "pending", label: "Silver Paper No.30 Discussion", url: "" },
+                  { type: "pdf", label: "Silver Paper No.30.pdf", url: "" },
+                ]
+              },
+            ]
+          }
+        ]
+      },
+      {
+      id: "ETSAFETY",
+      title: "ET - සෞඛ්‍ය හා ආරක්ෂාව (SAFETY)",
+      badge: "ET සෞඛ්‍ය හා ආරක්ෂාව",
+      icon: "🩺",
+      color: "#0056b3",
+      cards: [
         {
-          id: "ETSAFETY-v-01",
-          num: "01",
-          title: "සෞඛ්‍ය හා ආරක්ෂාව Day 01",
-          links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 01 Video", url: "https://youtu.be/6e3JqIT15q8?si=7DvLwhubMOwkjASS" }]
-        },
-        {
-          id: "ETSAFETY-v-02",
-          num: "02",
-          title: "සෞඛ්‍ය හා ආරක්ෂාව Day 02",
-          links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 02 Video", url: "https://youtu.be/88sGTmAKPeE?si=cx5jhnXFEAkNQz39" }]
-        },
-        {
-          id: "ETSAFETY-v-03",
-          num: "03",
-          title: "සෞඛ්‍ය හා ආරක්ෂාව Day 03",
-          links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 03 Video", url: "https://youtu.be/dB_r1Krdot4?si=tYCybxZDU7qeEGyL" }]
-        },
-        {
-          id: "ETSAFETY-v-04",
-          num: "04",
-          title: "සෞඛ්‍ය හා ආරක්ෂාව Day 04",
-          links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 04 Video", url: "https://youtu.be/2V0Ukdq1Ui4?si=F5Q0v7LvMdSZ69fI" }]
-        },
-        {
-          id: "ETSAFETY-v-05",
-          num: "05",
-          title: "සෞඛ්‍ය හා ආරක්ෂාව Day 05",
-          links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 05 Video", url: "https://youtu.be/mJlH3lhTFas?si=g4llKs-A69ZnFlXS" }]
-        },
-        {
-          id: "ETSAFETY-v-06",
-          num: "06",
-          title: "සෞඛ්‍ය හා ආරක්ෂාව Day 06",
-          links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 06 Video", url: "https://youtu.be/48srXB-KD9w?si=tvYUT3Stm4Gd7yYw" }]
-        },
-        {
-          id: "ETSAFETY-v-07",
-          num: "07",
-          title: "සෞඛ්‍ය හා ආරක්ෂාව Day 07",
-          links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 07 Video", url: "https://youtu.be/16arLJdsGWA?si=IcylfTwsiXLk0-F2" }]
+          title: "🎥 Videos + Tutes",
+          items: [
+            {
+              id: "ETSAFETY-v-01",
+              num: "01",
+              title: "සෞඛ්‍ය හා ආරක්ෂාව Day 01",
+              links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 01 Video", url: "https://youtu.be/6e3JqIT15q8?si=7DvLwhubMOwkjASS" }]
+            },
+            {
+              id: "ETSAFETY-v-02",
+              num: "02",
+              title: "සෞඛ්‍ය හා ආරක්ෂාව Day 02",
+              links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 02 Video", url: "https://youtu.be/88sGTmAKPeE?si=cx5jhnXFEAkNQz39" }]
+            },
+            {
+              id: "ETSAFETY-v-03",
+              num: "03",
+              title: "සෞඛ්‍ය හා ආරක්ෂාව Day 03",
+              links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 03 Video", url: "https://youtu.be/dB_r1Krdot4?si=tYCybxZDU7qeEGyL" }]
+            },
+            {
+              id: "ETSAFETY-v-04",
+              num: "04",
+              title: "සෞඛ්‍ය හා ආරක්ෂාව Day 04",
+              links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 04 Video", url: "https://youtu.be/2V0Ukdq1Ui4?si=F5Q0v7LvMdSZ69fI" }]
+            },
+            {
+              id: "ETSAFETY-v-05",
+              num: "05",
+              title: "සෞඛ්‍ය හා ආරක්ෂාව Day 05",
+              links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 05 Video", url: "https://youtu.be/mJlH3lhTFas?si=g4llKs-A69ZnFlXS" }]
+            },
+            {
+              id: "ETSAFETY-v-06",
+              num: "06",
+              title: "සෞඛ්‍ය හා ආරක්ෂාව Day 06",
+              links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 06 Video", url: "https://youtu.be/48srXB-KD9w?si=tvYUT3Stm4Gd7yYw" }]
+            },
+            {
+              id: "ETSAFETY-v-07",
+              num: "07",
+              title: "සෞඛ්‍ය හා ආරක්ෂාව Day 07",
+              links: [{ type: "video", label: "▶ සෞඛ්‍ය හා ආරක්ෂාව Day 07 Video", url: "https://youtu.be/16arLJdsGWA?si=IcylfTwsiXLk0-F2" }]
+            }
+          ]
         }
       ]
-    }
-  ]
-},
+    },
   {
   id: "ETCIVILENGINEERING",
   title: "ET - සිවිල් තාක්ෂණවේදය (CIVIL ENGINEERING)",
