@@ -1386,4 +1386,90 @@ const classData = [
       }
     ]
   },
+  {
+  id: "FREE-CLASSES",
+  title: "Free Classes for all A/L tech subjects",
+  badge: "Free Classes",
+  icon: "🆓",
+  color: "#22c55e",
+  cards: [
+    {
+      title: "🎥 Free Class Playlists",
+      items: [
+        {
+          id: "free-hadinweema",
+          num: "01",
+          title: "ET - හැඳින්වීම",
+          links: [
+            {
+              type: "video",
+              label: "▶ Free Class",
+              url: "https://shorturl.at/znQGE"
+            }
+          ]
+        },
+        {
+          id: "free-safety",
+          num: "02",
+          title: "ET - සෞඛ්‍ය හා ආරක්ෂාව (SAFETY)",
+          links: [
+            {
+              type: "video",
+              label: "▶ Free Class",
+              url: "https://shorturl.at/sj1C3"
+            }
+          ]
+        },
+        {
+          id: "free-civil",
+          num: "03",
+          title: "ET - සිවිල් තාක්ෂණවේදය (CIVIL ENGINEERING)",
+          links: [
+            {
+              type: "video",
+              label: "▶ Free Class",
+              url: "https://shorturl.at/VbPrv"
+            }
+          ]
+        },
+        {
+          id: "free-drawing",
+          num: "04",
+          title: "ET - ඉංජිනේරු ඇදීම (DRAWING)",
+          links: [
+            {
+              type: "video",
+              label: "▶ Free Class",
+              url: "https://shorturl.at/XgZ5V"
+            }
+          ]
+        },
+        {
+          id: "free-water",
+          num: "05",
+          title: "ET - ජල සම්පාදනය සහ කසල අපවහනය",
+          links: [
+            {
+              type: "video",
+              label: "▶ Free Class",
+              url: "https://ln.run/wBXL7"
+            }
+          ]
+        },
+        {
+          id: "free-electrical",
+          num: "06",
+          title: "ET - Electrical Recordings",
+          links: [
+            {
+              type: "video",
+              label: "▶ Free Class",
+              url: "https://ln.run/kUOAY"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
 ];
