@@ -1457,8 +1457,20 @@ const classData = [
           ]
         },
         {
-          id: "free-electrical",
+          id: "free-AUTOMOBILE",
           num: "06",
+          title: "ET - AUTOMOBILE - මූලික ස්වයංචලන තාක්ෂණවේදය",
+          links: [
+            {
+              type: "video",
+              label: "▶ Free Class",
+              url: "https://shorturl.at/2PZyx"
+            }
+          ]
+        },
+        {
+          id: "free-electrical",
+          num: "07",
           title: "ET - Electrical Recordings",
           links: [
             {
