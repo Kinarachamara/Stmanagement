@@ -652,7 +652,6 @@ const classData = [
                 links: [
                   { type: "video", label: "Silver Paper No.27 Discussion", url: "https://www.youtube.com/live/h0kjgHLrJ9o?si=Hn0BD4qkRVZ_FoSI" },
                   { type: "pdf", label: "Silver Paper No.27.pdf", url: "https://drive.google.com/file/d/1PGGKSce3An9SKNyv3nReJy83t22TQdeN/view?usp=drive_link" },
-
                 ]
               },
               {
@@ -1248,6 +1247,140 @@ const classData = [
             num: "07",
             title: "හැඳින්වීම Day 07",
             links: [{ type: "video", label: "▶ Video", url: "https://youtu.be/IjTNqOrOmBE?si=__xKJ-ol9LMaaJ97" }]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "AUTOMOBILE",
+    title: "AUTOMOBILE - මූලික ස්වයංචලන තාක්ෂණවේදය",
+    badge: "AUTOMOBILE recording",
+    icon: "🚗",
+    color: "#1e3a8a",
+    cards: [
+      {
+        title: "🎥 Videos + Tutes",
+        items: [
+          {
+            id: "AUTOMOBILE-v-01",
+            num: "01",
+            title: "AUTOMOBILE Day 01",
+            links: [
+              {
+                type: "video",
+                label: "▶ Video",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "AUTOMOBILE-v-02",
+            num: "02",
+            title: "AUTOMOBILE Day 02",
+            links: [
+              {
+                type: "video",
+                label: "▶ Video",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "AUTOMOBILE-v-03",
+            num: "03",
+            title: "AUTOMOBILE Day 03",
+            links: [
+              {
+                type: "video",
+                label: "▶ Video",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "AUTOMOBILE-v-04",
+            num: "04",
+            title: "AUTOMOBILE Day 04",
+            links: [
+              {
+                type: "video",
+                label: "▶ Video",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "AUTOMOBILE-v-05",
+            num: "05",
+            title: "AUTOMOBILE Day 05",
+            links: [
+              {
+                type: "video",
+                label: "▶ Video",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "AUTOMOBILE-v-06",
+            num: "06",
+            title: "AUTOMOBILE Day 06",
+            links: [
+              {
+                type: "video",
+                label: "▶ Video",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "AUTOMOBILE-v-07",
+            num: "07",
+            title: "AUTOMOBILE Day 07",
+            links: [
+              {
+                type: "video",
+                label: "▶ Video",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "AUTOMOBILE-v-08",
+            num: "08",
+            title: "AUTOMOBILE Day 08",
+            links: [
+              {
+                type: "video",
+                label: "▶ Video",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "AUTOMOBILE-v-09",
+            num: "09",
+            title: "AUTOMOBILE Day 09",
+            links: [
+              {
+                type: "video",
+                label: "▶ Video",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "AUTOMOBILE-v-10",
+            num: "10",
+            title: "AUTOMOBILE Day 10",
+            links: [
+              {
+                type: "video",
+                label: "▶ Video",
+                url: ""
+              }
+            ]
           }
         ]
       }
