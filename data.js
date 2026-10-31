@@ -1479,6 +1479,18 @@ const classData = [
               url: "https://ln.run/kUOAY"
             }
           ]
+        },
+        {
+          id: "free-SFTICT",
+          num: "08",
+          title: "SFT - FT IT part",
+          links: [
+            {
+              type: "video",
+              label: "▶ Free Class",
+              url: "https://ln.run/kUOAY"
+            }
+          ]
         }
       ]
     }
