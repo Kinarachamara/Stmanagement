@@ -1354,7 +1354,7 @@ const classData = [
               {
                 type: "video",
                 label: "▶ Video",
-                url: ""
+                url: "https://youtu.be/CT6qbPli6VE?si=pKPaQLvuWzp2LXF7"
               }
             ]
           },
@@ -1366,7 +1366,7 @@ const classData = [
               {
                 type: "video",
                 label: "▶ Video",
-                url: ""
+                url: "https://youtu.be/BN-nLYQ1YzQ?si=8q2AzmGt_qxk8NRP"
               }
             ]
           },
@@ -1378,7 +1378,7 @@ const classData = [
               {
                 type: "video",
                 label: "▶ Video",
-                url: ""
+                url: "https://youtu.be/7jv6eqCBRfU?si=PmI2NP6qQpQ7Qwht"
               }
             ]
           }
