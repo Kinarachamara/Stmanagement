@@ -1270,7 +1270,7 @@ const classData = [
               {
                 type: "video",
                 label: "▶ Video",
-                url: ""
+                url: "https://www.youtube.com/watch?v=TCzLVclyQig"
               }
             ]
           },
@@ -1282,7 +1282,7 @@ const classData = [
               {
                 type: "video",
                 label: "▶ Video",
-                url: ""
+                url: "https://youtu.be/7J2MQGgVWHk?si=p9oBawSEIaHaRy4L"
               }
             ]
           },
