@@ -1483,15 +1483,28 @@ const classData = [
         {
           id: "free-SFTICT",
           num: "08",
-          title: "SFT - FT IT part",
+          title: "SFT - SFT IT part",
           links: [
             {
               type: "video",
               label: "▶ Free Class",
-              url: "https://ln.run/kUOAY"
+              url: "https://shorturl.at/WYq76"
             }
           ]
-        }
+        },
+        {
+          id: "free-SFT-paper",
+          num: "09",
+          title: "SFT - SFT Paper Discussion",
+          links: [
+            {
+              type: "video",
+              label: "▶ Free Class",
+              url: "https://shorturl.at/19umZ"
+            }
+          ]
+        },
+        
       ]
     }
   ]
