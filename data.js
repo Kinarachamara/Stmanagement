@@ -1294,7 +1294,7 @@ const classData = [
               {
                 type: "video",
                 label: "▶ Video",
-                url: ""
+                url: "https://youtu.be/IPL5eyRiZv8?si=ZGrR8-G2VewYjZAM"
               }
             ]
           },
@@ -1306,7 +1306,7 @@ const classData = [
               {
                 type: "video",
                 label: "▶ Video",
-                url: ""
+                url: "https://youtu.be/bgrT1frWPQ0?si=cRKqThqAsihEpk5p"
               }
             ]
           },
@@ -1318,7 +1318,7 @@ const classData = [
               {
                 type: "video",
                 label: "▶ Video",
-                url: ""
+                url: "https://youtu.be/SSw7kfq0rSs?si=3QYZyarppz1i0-Oa"
               }
             ]
           },
@@ -1330,7 +1330,7 @@ const classData = [
               {
                 type: "video",
                 label: "▶ Video",
-                url: ""
+                url: "https://youtu.be/uAFBAxeRkk0?si=_Srod5Ieael3ZlUT"
               }
             ]
           },
