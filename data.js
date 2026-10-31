@@ -1342,7 +1342,7 @@ const classData = [
               {
                 type: "video",
                 label: "▶ Video",
-                url: ""
+                url: "https://www.youtube.com/live/iaP-0zzMB_w?si=0IPo5YnDB2Qzo7L0"
               }
             ]
           },
