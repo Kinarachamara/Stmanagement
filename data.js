@@ -448,6 +448,42 @@ const classData = [
               }
             ]
           },
+          {
+            id: "ictp-09",
+            num: "09",
+            title: "IRC Paper No. 09 (2026-10-20)",
+            links: [
+              {
+                type: "pending",
+                label: "📄 IRC Paper No. 09",
+                url: ""
+              },
+              { type: "pending", label: "▶ Discussion", url: "" },
+              {
+                type: "pending",
+                label: "✅ Marking",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "ictp-10",
+            num: "10",
+            title: "IRC Paper No. 10 (2026-11-03)",
+            links: [
+              {
+                type: "pending",
+                label: "📄 IRC Paper No. 10",
+                url: ""
+              },
+              { type: "pending", label: "▶ Discussion", url: "" },
+              {
+                type: "pending",
+                label: "✅ Marking",
+                url: ""
+              }
+            ]
+          },
         ]
       }
     ]
