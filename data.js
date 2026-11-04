@@ -285,6 +285,19 @@ const classData = [
               },
             ]
           },
+          {
+            id: "ictr-d12",
+            num: "12",
+            title: "Revision Day 12 (2026-11-10)",
+            links: [
+              { type: "pending", label: "▶ Video", url: "" },
+              {
+                type: "pending",
+                label: "📄 Morning Paper 11",
+                url: ""
+              },
+            ]
+          },
         ]
       }
     ]
