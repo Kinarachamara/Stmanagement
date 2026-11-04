@@ -272,6 +272,19 @@ const classData = [
               },
             ]
           },
+          {
+            id: "ictr-d11",
+            num: "11",
+            title: "Revision Day 11 (2026-11-03)",
+            links: [
+              { type: "video", label: "▶ Video", url: "https://youtu.be/5aUMEwHpvpY?si=4wC22AdYD6bXouO9" },
+              {
+                type: "pending",
+                label: "📄 Morning Paper 10",
+                url: ""
+              },
+            ]
+          },
         ]
       }
     ]
