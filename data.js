@@ -281,7 +281,7 @@ const classData = [
               {
                 type: "pending",
                 label: "📄 Morning Paper 10",
-                url: ""
+                url: "https://drive.google.com/file/d/19GK94i2ACN8A2ECDunahynMSv_wIDogR/view?usp=drivesdk"
               },
             ]
           },
