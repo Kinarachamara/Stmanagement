@@ -458,7 +458,7 @@ const classData = [
                 label: "📄 IRC Paper No. 09",
                 url: "https://drive.google.com/file/d/114YLvNzODVaTz_WeC8hJglLlunrkGNE5/view?usp=drivesdk"
               },
-              { type: "pending", label: "▶ Discussion", url: "" },
+              { type: "pending", label: "▶ something went wrong", url: "" },
               {
                 type: "pending",
                 label: "✅ Marking",
@@ -476,7 +476,7 @@ const classData = [
                 label: "📄 IRC Paper No. 10",
                 url: ""
               },
-              { type: "pending", label: "▶ Discussion", url: "" },
+              { type: "video", label: "▶ Discussion", url: "https://youtu.be/wTUkic_vW9U?si=VtrZ-Yw962lRSOqy" },
               {
                 type: "pending",
                 label: "✅ Marking",
