@@ -1210,6 +1210,188 @@ const classData = [
     ]
   },
   {
+  "id": "ETElectronic",
+  "title": "ET – Electronic Recordings",
+  "badge": "ET Electronic Recordings",
+  "icon": "🔌",
+  "color": "#0ea5e9",
+  "cards": [
+    {
+      "title": "🎥 Videos + Tutes",
+      "items": [
+        {
+          "id": "ETElectronic-V-01",
+          "num": "01",
+          "title": "ELECTRONICS Short Note + අනුමාන සාකච්ඡාව",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": "https://www.youtube.com/live/K52s3rkp54U?si=xVCn2eBUTUde4DJv"
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-02",
+          "num": "02",
+          "title": "ELECTRONICS Short Notes + අනුමාන ප්‍රශ්න",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": "https://www.youtube.com/live/rR6HSljHuNg?si=8Cv2IiyHo4PBBv_D"
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-03",
+          "num": "03",
+          "title": "ELECTRONICS Short Note + අනුමාන සාකච්ඡාව",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": "https://www.youtube.com/live/BKGujVLySY0?si=P-zS7KltlZCFpvlk"
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-04",
+          "num": "04",
+          "title": "ELECTRONICS Short Note + අනුමාන සාකච්ඡාව",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": "https://www.youtube.com/live/uk0cth30a2M?si=o1ReAapiVIlZ2G0F"
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-05",
+          "num": "05",
+          "title": "ELECTRONICS Short Note + අනුමාන සාකච්ඡාව",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-06",
+          "num": "06",
+          "title": "ELECTRONICS අනුමාන සාකච්ඡාව – ක්ෂේත්‍ර ආචරණ ට්‍රාන්සිස්ටර",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-07",
+          "num": "07",
+          "title": "ELECTRONICS – JFET ක්‍රියාකාරීත්වය හා ගැටලු විසදීම",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-08",
+          "num": "08",
+          "title": "ELECTRONICS – OP-AMPS",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-09",
+          "num": "09",
+          "title": "ELECTRONICS – OP-AMPS",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-10",
+          "num": "10",
+          "title": "ELECTRONICS – OP-AMPS ගැටලු",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-11",
+          "num": "11",
+          "title": "ELECTRONICS – SEVEN SEGMENT DISPLAY",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-12",
+          "num": "12",
+          "title": "ELECTRONICS – FLIP FLOP",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-13",
+          "num": "13",
+          "title": "ELECTRONICS – Day 13",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "id": "ETElectronic-V-14",
+          "num": "14",
+          "title": "ELECTRONICS – Day 14",
+          "links": [
+            {
+              "type": "video",
+              "label": "▶ Video",
+              "url": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+  {
     id: "SFTIT",
     title: "SFT IT part",
     badge: "SFT IT all units",
