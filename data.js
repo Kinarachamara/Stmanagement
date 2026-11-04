@@ -1334,6 +1334,140 @@ const classData = [
     ]
   },
   {
+      "id": "WyawasayakathwayaHaaKalamanakaranaya",
+      "title": "ET - ව්‍යවසායකත්වය හා කළමනාකරණය",
+      "badge": "ET ව්‍යවසායකත්වය හා කළමනාකරණය recording",
+      "icon": "💼",
+      "color": "#059669",
+      "cards": [
+        {
+          "title": "🎥 Videos + Tutes",
+          "items": [
+            {
+              "id": "WyawasayakathwayaHaaKalamanakaranaya-V-1",
+              "num": "01",
+              "title": "ව්‍යවසායකත්වය හා කළමනාකරණය Day 01",
+              "links": [
+                {
+                  "type": "video",
+                  "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
+                  "url": ""
+                }
+              ]
+            },
+            {
+              "id": "WyawasayakathwayaHaaKalamanakaranaya-V-2",
+              "num": "02",
+              "title": "ව්‍යවසායකත්වය හා කළමනාකරණය Day 02",
+              "links": [
+                {
+                  "type": "video",
+                  "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
+                  "url": ""
+                }
+              ]
+            },
+            {
+              "id": "WyawasayakathwayaHaaKalamanakaranaya-V-3",
+              "num": "03",
+              "title": "ව්‍යවසායකත්වය හා කළමනාකරණය Day 03",
+              "links": [
+                {
+                  "type": "video",
+                  "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
+                  "url": ""
+                }
+              ]
+            },
+            {
+              "id": "WyawasayakathwayaHaaKalamanakaranaya-V-4",
+              "num": "04",
+              "title": "ව්‍යවසායකත්වය හා කළමනාකරණය Day 04",
+              "links": [
+                {
+                  "type": "video",
+                  "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
+                  "url": ""
+                }
+              ]
+            },
+            {
+              "id": "WyawasayakathwayaHaaKalamanakaranaya-V-5",
+              "num": "05",
+              "title": "ව්‍යවසායකත්වය හා කළමනාකරණය Day 05",
+              "links": [
+                {
+                  "type": "video",
+                  "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
+                  "url": ""
+                }
+              ]
+            },
+            {
+              "id": "WyawasayakathwayaHaaKalamanakaranaya-V-6",
+              "num": "06",
+              "title": "ව්‍යවසායකත්වය හා කළමනාකරණය Day 06",
+              "links": [
+                {
+                  "type": "video",
+                  "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
+                  "url": ""
+                }
+              ]
+            },
+            {
+              "id": "WyawasayakathwayaHaaKalamanakaranaya-V-7",
+              "num": "07",
+              "title": "ව්‍යවසායකත්වය හා කළමනාකරණය Day 07",
+              "links": [
+                {
+                  "type": "video",
+                  "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
+                  "url": ""
+                }
+              ]
+            },
+            {
+              "id": "WyawasayakathwayaHaaKalamanakaranaya-V-8",
+              "num": "08",
+              "title": "ව්‍යවසායකත්වය හා කළමනාකරණය Day 08",
+              "links": [
+                {
+                  "type": "video",
+                  "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
+                  "url": ""
+                }
+              ]
+            },
+            {
+              "id": "WyawasayakathwayaHaaKalamanakaranaya-V-9",
+              "num": "09",
+              "title": "ව්‍යවසායකත්වය හා කළමනාකරණය Day 09",
+              "links": [
+                {
+                  "type": "video",
+                  "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
+                  "url": ""
+                }
+              ]
+            },
+            {
+              "id": "WyawasayakathwayaHaaKalamanakaranaya-V-10",
+              "num": "10",
+              "title": "ව්‍යවසායකත්වය හා කළමනාකරණය Day 10",
+              "links": [
+                {
+                  "type": "video",
+                  "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
+                  "url": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+  {
     id: "AUTOMOBILE",
     title: "AUTOMOBILE - මූලික ස්වයංචලන තාක්ෂණවේදය",
     badge: "AUTOMOBILE recording",
@@ -1582,6 +1716,18 @@ const classData = [
               type: "video",
               label: "▶ Free Class",
               url: "https://shorturl.at/19umZ"
+            }
+          ]
+        },
+        {
+          id: "free-WyawasayakathwayaHaaKalamanakaranaya",
+          num: "10",
+          title: "ET - ව්‍යවසායකත්වය හා කළමනාකරණය",
+          links: [
+            {
+              type: "video",
+              label: "▶ Free Class",
+              url: "#"
             }
           ]
         },
