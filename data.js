@@ -1727,11 +1727,10 @@ const classData = [
             {
               type: "video",
               label: "▶ Free Class",
-              url: "#"
+              url: "https://shorturl.at/yULOe"
             }
           ]
         },
-        
       ]
     }
   ]
