@@ -1351,7 +1351,7 @@ const classData = [
                 {
                   "type": "video",
                   "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
-                  "url": ""
+                  "url": "https://youtu.be/orfirsFHp0Q?si=xjYfG6pPAoSSkqyN"
                 }
               ]
             },
@@ -1363,7 +1363,7 @@ const classData = [
                 {
                   "type": "video",
                   "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
-                  "url": ""
+                  "url": "https://youtu.be/8JYHI4kpfJY?si=edo1mSWDs5eUPtCY"
                 }
               ]
             },
@@ -1375,7 +1375,7 @@ const classData = [
                 {
                   "type": "video",
                   "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
-                  "url": ""
+                  "url": "https://youtu.be/KFdP0R9N4Y8?si=tNfRhbZE7fP46awU"
                 }
               ]
             },
@@ -1387,7 +1387,7 @@ const classData = [
                 {
                   "type": "video",
                   "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
-                  "url": ""
+                  "url": "https://youtu.be/OXeCWwoEjDI?si=FA49I60mk5vUOWAo"
                 }
               ]
             },
@@ -1399,7 +1399,7 @@ const classData = [
                 {
                   "type": "video",
                   "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
-                  "url": ""
+                  "url": "https://youtu.be/UTdVtfu-xLM?si=bnhTC7ndCvi8Hf5X"
                 }
               ]
             },
@@ -1411,7 +1411,7 @@ const classData = [
                 {
                   "type": "video",
                   "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
-                  "url": ""
+                  "url": "https://youtu.be/O11DPsh2ag4?si=lzlZqKVs_v0xZZkM"
                 }
               ]
             },
@@ -1423,7 +1423,7 @@ const classData = [
                 {
                   "type": "video",
                   "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
-                  "url": ""
+                  "url": "https://youtu.be/RX4QGSQcpGQ?si=nhOZNecE9pvu9TnZ"
                 }
               ]
             },
@@ -1435,7 +1435,7 @@ const classData = [
                 {
                   "type": "video",
                   "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
-                  "url": ""
+                  "url": "https://youtu.be/bLF9_GRPch8?si=Xh8esiiAvDPUMDAx"
                 }
               ]
             },
@@ -1447,7 +1447,7 @@ const classData = [
                 {
                   "type": "video",
                   "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
-                  "url": ""
+                  "url": "https://www.youtube.com/live/kYuWAXF331c?si=_QGhp_4OAoVcN5FD"
                 }
               ]
             },
@@ -1459,7 +1459,7 @@ const classData = [
                 {
                   "type": "video",
                   "label": "▶ ව්‍යවසායකත්වය හා කළමනාකරණය Video",
-                  "url": ""
+                  "url": "https://youtu.be/I4IPKotwxFA?si=U9jaJPOt7mvnEqq0"
                 }
               ]
             }
