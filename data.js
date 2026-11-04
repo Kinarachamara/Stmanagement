@@ -497,6 +497,25 @@ const classData = [
               }
             ]
           },
+          {
+            id: "ictp-11",
+            num: "10",
+            title: "IRC Paper No. 11 (2026-11-10)",
+            links: [
+              {
+                type: "pending",
+                label: "📄 IRC Paper No. 11",
+                url: ""
+              },
+              { type: "pending", label: "▶ Discussion", url: "" },
+              {
+                type: "pending",
+                label: "✅ Marking",
+                url: ""
+              }
+            ]
+          },
+          
         ]
       }
     ]
