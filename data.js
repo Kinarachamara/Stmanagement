@@ -499,7 +499,7 @@ const classData = [
           },
           {
             id: "ictp-11",
-            num: "10",
+            num: "11",
             title: "IRC Paper No. 11 (2026-11-10)",
             links: [
               {
