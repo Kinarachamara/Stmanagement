@@ -1275,7 +1275,7 @@ const classData = [
             {
               "type": "video",
               "label": "▶ Video",
-              "url": ""
+              "url": "https://www.youtube.com/live/dymzvpQugaQ?si=ACCdLSSlZkVehono"
             }
           ]
         },
@@ -1287,7 +1287,7 @@ const classData = [
             {
               "type": "video",
               "label": "▶ Video",
-              "url": ""
+              "url": "https://www.youtube.com/live/sLLDnYIvuKg?si=1tEwDEMoFzIJsCME"
             }
           ]
         },
@@ -1299,7 +1299,7 @@ const classData = [
             {
               "type": "video",
               "label": "▶ Video",
-              "url": ""
+              "url": "https://www.youtube.com/live/s_nILOt8TQE?si=r9RxM5zuBbt-Igid"
             }
           ]
         },
@@ -1311,7 +1311,7 @@ const classData = [
             {
               "type": "video",
               "label": "▶ Video",
-              "url": ""
+              "url": "https://www.youtube.com/live/7aj5_6qIrR8?si=r4iLC0trxhoIjUEr"
             }
           ]
         },
@@ -1323,7 +1323,7 @@ const classData = [
             {
               "type": "video",
               "label": "▶ Video",
-              "url": ""
+              "url": "https://www.youtube.com/live/72JjMJbK8x4?si=OwAr8-X6fclO_K7n"
             }
           ]
         },
@@ -1335,7 +1335,7 @@ const classData = [
             {
               "type": "video",
               "label": "▶ Video",
-              "url": ""
+              "url": "https://www.youtube.com/live/UZ0HZ7TLN1U?si=O7qmek3MssuLbLKQ"
             }
           ]
         },
@@ -1347,7 +1347,7 @@ const classData = [
             {
               "type": "video",
               "label": "▶ Video",
-              "url": ""
+              "url": "https://www.youtube.com/live/rUOpoxZL7Hs?si=wncgtk2jKuCUSaSs"
             }
           ]
         },
@@ -1359,7 +1359,7 @@ const classData = [
             {
               "type": "video",
               "label": "▶ Video",
-              "url": ""
+              "url": "https://www.youtube.com/live/eoJVqPQvCPk?si=fe8qEb00L4KuLnqe"
             }
           ]
         },
@@ -1371,7 +1371,7 @@ const classData = [
             {
               "type": "video",
               "label": "▶ Video",
-              "url": ""
+              "url": "https://www.youtube.com/live/4WrkM8Ofb0k?si=AxU9FbSKI1XUeNwx"
             }
           ]
         },
@@ -1383,7 +1383,7 @@ const classData = [
             {
               "type": "video",
               "label": "▶ Video",
-              "url": ""
+              "url": "https://www.youtube.com/live/zzLV4fQEbDo?si=9e5EZo3fVJOHQdGq"
             }
           ]
         }
