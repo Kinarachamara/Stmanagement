@@ -1913,7 +1913,19 @@ const classData = [
             }
           ]
         },
-      ]
+          {
+          id: "free-ETElectronic",
+          num: "11",
+          title: "ET – Electronic Recordings",
+          links: [
+            {
+              type: "video",
+              label: "▶ Free Class",
+              url: "https://shorturl.at/AADh0"
+            }
+          ]
+        },
+     ]
     }
   ]
 },
