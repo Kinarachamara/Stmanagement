@@ -968,7 +968,7 @@ function renderRecordings(subject) {
       if (card.items?.length) items = items.concat(card.items);
     });
 
-    const icons = ["📘", "🩺", "🛠️", "🎨", "💧", "🚗", "⚡", "💻", "🚀"];
+    const icons = ["📘", "🩺", "🛠️", "🎨", "💧", "🚗", "⚡", "💻", "🚀", "💼", "🔌"];
     let cardsHtml = items.map((item, index) => {
       const link = (item.links || []).find(l => l.type !== "pending" && l.url) || (item.links || [])[0];
       const url = link?.url || "#";
