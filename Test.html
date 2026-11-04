@@ -560,6 +560,140 @@ main {
   font-size: 13.5px;
   font-weight: 500;
 }
+
+/* ===== FREE CLASSES DASHBOARD ===== */
+.free-dashboard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+.free-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 20px 16px;
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  transition: all 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.free-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: color-mix(in srgb, #22c55e 40%, var(--border));
+}
+.free-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #22c55e, transparent);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.free-card:hover::before { opacity: 1; }
+.free-card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #22c55e22, #16a34a18);
+  color: #16a34a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.15);
+}
+.free-card-num {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-size: 11px;
+  font-weight: 800;
+  color: #16a34a;
+  background: #dcfce7;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+[data-theme="dark"] .free-card-num {
+  background: #14532d;
+  color: #86efac;
+}
+.free-card h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  margin-top: 2px;
+}
+.free-card-meta {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #16a34a;
+}
+.free-card-meta span.play {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: #dcfce7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  transition: all 0.2s;
+}
+[data-theme="dark"] .free-card-meta span.play {
+  background: #14532d;
+}
+.free-card:hover .free-card-meta span.play {
+  background: #16a34a;
+  color: white;
+}
+.free-header-banner {
+  background: linear-gradient(135deg, #16a34a 0%, #22c55e 50%, #4ade80 100%);
+  border-radius: 18px;
+  padding: 18px 20px;
+  margin-bottom: 18px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: 0 8px 24px rgba(34, 197, 94, 0.25);
+}
+.free-header-banner .banner-icon {
+  width: 48px;
+  height: 48px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+.free-header-banner h3 {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.free-header-banner p {
+  font-size: 12.5px;
+  opacity: 0.9;
+  margin-top: 3px;
+  font-weight: 500;
+}
+
 footer {
   text-align: center;
   color: var(--muted);
@@ -569,6 +703,10 @@ footer {
 }
 
 @media (min-width: 700px) {
+  .free-dashboard {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
   .subject-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
@@ -667,292 +805,4 @@ function resourceSubText(type) {
   if (type === "video") return "Watch recording";
   if (type === "pdf") return "Open PDF";
   if (type === "drive") return "Open files";
-  if (type === "pending") return "Coming soon";
-  return "Open resource";
-}
-
-function getSubjectProgress(subject) {
-  const progress = loadProgress();
-  let total = 0, done = 0;
-  subject.cards.forEach(card => {
-    (card.items || []).forEach(item => {
-      total++;
-      if (progress[item.id]) done++;
-    });
-  });
-  return { total, done };
-}
-
-function hideAllPages() {
-  ["homePage", "subjectPage", "itemPage"].forEach(id => {
-    document.getElementById(id).classList.remove("active");
-  });
-}
-
-function renderHome() {
-  const grid = document.getElementById("subjectGrid");
-  if (!classData?.length) {
-    grid.innerHTML = `<div class="empty">No classes available.</div>`;
-    return;
-  }
-  grid.innerHTML = classData.map((subject, index) => {
-    const { total, done } = getSubjectProgress(subject);
-    const pillClass = total > 0 && done === total ? "done" : "";
-    const pillText = total === 0 ? "No items" : `${done}/${total} done`;
-    return `
-      <div class="subject-card" onclick="openSubject(${index})" style="--card-accent:${subject.color}">
-        <div class="subject-icon" style="background:${subject.color}22;color:${subject.color}">
-          ${subject.icon}
-        </div>
-        <h2>${subject.title}</h2>
-        <p>${subject.badge || "2027 A/L"}</p>
-        <div class="subject-meta">
-          <span class="progress-pill ${pillClass}">${pillText}</span>
-          <span class="subject-arrow">→</span>
-        </div>
-      </div>
-    `;
-  }).join("");
-}
-
-function openSubject(index, fromHash = false) {
-  const subject = classData[index];
-  if (!subject) return;
-
-  currentSubjectId = subject.id;
-  hideAllPages();
-  document.getElementById("subjectPage").classList.add("active");
-  document.getElementById("subjectTitle").innerHTML = `${subject.icon} ${subject.title}`;
-  document.getElementById("subjectDescription").textContent =
-    `${subject.badge || "2027 A/L"} • Recordings & Resources`;
-
-  renderRecordings(subject);
-
-  if (!fromHash) history.replaceState(null, "", `#${subject.id}`);
-  window.scrollTo({ top: 0, behavior: "smooth" });
-}
-
-function openSingleItem(subjectId, itemId, fromHash = false) {
-  const subject = classData.find(s => s.id === subjectId);
-  if (!subject) return;
-
-  let item = null;
-  subject.cards.forEach(card => {
-    (card.items || []).forEach(i => { if (i.id === itemId) item = i; });
-  });
-  if (!item) return;
-
-  currentSubjectId = subjectId;
-  hideAllPages();
-  document.getElementById("itemPage").classList.add("active");
-
-  document.getElementById("itemPageTitle").textContent = item.title;
-  document.getElementById("itemPageDesc").textContent = `${subject.icon} ${subject.title}`;
-
-  const backBtn = document.getElementById("itemBackBtn");
-  if (backBtn) {
-    backBtn.onclick = () => {
-      const idx = classData.findIndex(s => s.id === subjectId);
-      if (idx !== -1) openSubject(idx);
-    };
-  }
-
-  const progress = loadProgress();
-  const isDone = !!progress[item.id];
-  const accent = subject.color || "#3b82f6";
-
-  const resourcesHtml = (item.links || []).map(link => {
-    const cls = resourceClass(link.type);
-    const icon = resourceIcon(link.type);
-    const sub = resourceSubText(link.type);
-    if (link.type === "pending") {
-      return `
-        <div class="resource ${cls}">
-          <div class="resource-icon">${icon}</div>
-          <div class="resource-text">
-            <strong>${link.label}</strong>
-            <span>${sub}</span>
-          </div>
-        </div>`;
-    }
-    return `
-      <a class="resource ${cls}" href="${link.url}" target="_blank" rel="noopener noreferrer">
-        <div class="resource-icon">${icon}</div>
-        <div class="resource-text">
-          <strong>${link.label}</strong>
-          <span>${sub}</span>
-        </div>
-      </a>`;
-  }).join("");
-
-  document.getElementById("singleItemContent").innerHTML = `
-    <div class="single-wrap">
-      <div class="single-top ${isDone ? "completed" : ""}" style="--accent-color:${accent}">
-        <div class="single-top-inner">
-          <div class="single-num">${item.num || "•"}</div>
-          <div class="single-meta">
-            <h3>${item.title}</h3>
-            <p>${subject.badge || "2027 A/L"}</p>
-          </div>
-        </div>
-      </div>
-      <div class="single-resources">
-        ${resourcesHtml || `<div class="empty">No resources available.</div>`}
-      </div>
-    </div>
-    <div class="single-check-row">
-      <input type="checkbox" id="singleCheck" ${isDone ? "checked" : ""} 
-             onchange="toggleProgress('${item.id}', this)">
-      <label for="singleCheck">Mark as completed</label>
-    </div>
-  `;
-
-  if (!fromHash) history.replaceState(null, "", `#${subjectId}/${itemId}`);
-  window.scrollTo({ top: 0, behavior: "smooth" });
-}
-
-function goHome() {
-  hideAllPages();
-  document.getElementById("homePage").classList.add("active");
-  currentSubjectId = null;
-  history.replaceState(null, "", window.location.pathname + window.location.search);
-  renderHome();
-  window.scrollTo({ top: 0, behavior: "smooth" });
-}
-
-function renderRecordings(subject) {
-  const container = document.getElementById("recordingList");
-  const progress = loadProgress();
-  let html = "";
-
-  subject.cards.forEach(card => {
-    if (!card.items?.length) return;
-    card.items.forEach((item, index) => {
-      const done = progress[item.id] ? "completed" : "";
-      const resources = (item.links || []).map(link => {
-        const cls = resourceClass(link.type);
-        const icon = resourceIcon(link.type);
-        const sub = resourceSubText(link.type);
-        if (link.type === "pending") {
-          return `
-            <div class="resource ${cls}">
-              <div class="resource-icon">${icon}</div>
-              <div class="resource-text">
-                <strong>${link.label}</strong>
-                <span>${sub}</span>
-              </div>
-            </div>`;
-        }
-        return `
-          <a class="resource ${cls}" href="${link.url}" target="_blank" rel="noopener noreferrer">
-            <div class="resource-icon">${icon}</div>
-            <div class="resource-text">
-              <strong>${link.label}</strong>
-              <span>${sub}</span>
-            </div>
-          </a>`;
-      }).join("");
-
-      html += `
-        <div class="recording ${done}" data-id="${item.id}">
-          <div class="recording-main" onclick="toggleRecording(this)">
-            <div class="recording-number">${item.num || String(index + 1).padStart(2, "0")}</div>
-            <div class="recording-info">
-              <h3>${item.title}</h3>
-              <p>${(item.links?.length) ? "Tap to view resources" : "No resources yet"}</p>
-            </div>
-            <div class="progress-row">
-              <input type="checkbox" class="progress-check" ${done ? "checked" : ""}
-                     onclick="event.stopPropagation()"
-                     onchange="toggleProgress('${item.id}', this)">
-              <span class="chevron">›</span>
-            </div>
-          </div>
-          <div class="resources">
-            ${resources || `<div class="empty">No resources available.</div>`}
-          </div>
-        </div>`;
-    });
-  });
-
-  container.innerHTML = html || `<div class="empty">No recordings available.</div>`;
-}
-
-function toggleRecording(el) {
-  el.closest(".recording").classList.toggle("open");
-}
-
-function toggleProgress(id, checkbox) {
-  const progress = loadProgress();
-  if (checkbox.checked) progress[id] = true;
-  else delete progress[id];
-  saveProgress(progress);
-
-  const rec = document.querySelector(`.recording[data-id="${id}"]`);
-  if (rec) {
-    rec.classList.toggle("completed", checkbox.checked);
-  }
-
-  const singleTop = document.querySelector(".single-top");
-  if (singleTop) {
-    singleTop.classList.toggle("completed", checkbox.checked);
-  }
-
-  // Refresh home progress pills if needed
-  if (document.getElementById("homePage").classList.contains("active")) {
-    renderHome();
-  }
-}
-
-function handleHash() {
-  const hash = window.location.hash.slice(1);
-  if (!hash || !classData) {
-    goHome();
-    return;
-  }
-
-  const [subjectId, itemId] = hash.split("/");
-  const index = classData.findIndex(s => s.id === subjectId);
-
-  if (index === -1) {
-    goHome();
-    return;
-  }
-
-  if (itemId) {
-    openSingleItem(subjectId, itemId, true);
-  } else {
-    openSubject(index, true);
-  }
-}
-
-function toggleTheme() {
-  const html = document.documentElement;
-  const current = html.getAttribute("data-theme");
-  const next = current === "dark" ? "light" : "dark";
-  html.setAttribute("data-theme", next === "dark" ? "dark" : "");
-  localStorage.setItem(THEME_KEY, next);
-  document.querySelector(".theme-btn").textContent = next === "dark" ? "☀️" : "🌙";
-}
-
-function initTheme() {
-  const saved = localStorage.getItem(THEME_KEY) || "light";
-  if (saved === "dark") {
-    document.documentElement.setAttribute("data-theme", "dark");
-    document.querySelector(".theme-btn").textContent = "☀️";
-  }
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  initTheme();
-  if (typeof classData === "undefined") {
-    document.getElementById("subjectGrid").innerHTML = `<div class="empty">data.js not loaded. Please check the file.</div>`;
-    return;
-  }
-  renderHome();
-  handleHash();
-});
-window.addEventListener("hashchange", handleHash);
-</script>
-</body>
-</html>
+  if (type === "pending") return "Comi
