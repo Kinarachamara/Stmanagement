@@ -279,7 +279,7 @@ const classData = [
             links: [
               { type: "video", label: "▶ Video", url: "https://youtu.be/5aUMEwHpvpY?si=4wC22AdYD6bXouO9" },
               {
-                type: "pending",
+                type: "pdf",
                 label: "📄 Morning Paper 10",
                 url: "https://drive.google.com/file/d/19GK94i2ACN8A2ECDunahynMSv_wIDogR/view?usp=drivesdk"
               },
