@@ -1390,7 +1390,7 @@ const classData = [
       ]
     }
   ]
-}
+},
   {
     id: "SFTIT",
     title: "SFT IT part",
