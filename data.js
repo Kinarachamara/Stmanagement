@@ -484,11 +484,11 @@ const classData = [
                 label: "📄 IRC Paper No. 09",
                 url: "https://drive.google.com/file/d/114YLvNzODVaTz_WeC8hJglLlunrkGNE5/view?usp=drivesdk"
               },
-              { type: "pending", label: "▶ something went wrong", url: "" },
+              { type: "video", label: "▶ Discussion", url: "https://youtu.be/1RGPmUt6udc?si=FGHF2W0xcUyf4WWL" },
               {
-                type: "pending",
+                type: "pdf",
                 label: "✅ Marking",
-                url: ""
+                url: "https://drive.google.com/file/d/1fNflPyfFBLHr_FfyTBhzyelDE4oDk5DL/view?usp=sharing"
               }
             ]
           },
