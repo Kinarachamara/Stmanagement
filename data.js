@@ -2041,7 +2041,7 @@ const classData = [
             {
               type: "pending",
               label: "▶ Free Class",
-              url: "https://kinarachamara.github.io/Stmanagement/"
+              url: "https://shorturl.at/QPNbl"
             }
           ]
         },
