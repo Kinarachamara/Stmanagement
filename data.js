@@ -290,7 +290,7 @@ const classData = [
             num: "12",
             title: "Revision Day 12 (2026-11-10)",
             links: [
-              { type: "pending", label: "▶ Video", url: "" },
+              { type: "video", label: "▶ Video", url: "https://youtu.be/3oleuPEYfFE?si=9b3vOqOt8sAgTXYg" },
               {
                 type: "pdf",
                 label: "📄 Morning Paper 11",
