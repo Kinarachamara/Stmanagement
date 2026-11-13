@@ -292,8 +292,21 @@ const classData = [
             links: [
               { type: "pending", label: "▶ Video", url: "" },
               {
-                type: "pending",
+                type: "pdf",
                 label: "📄 Morning Paper 11",
+                url: "https://drive.google.com/file/d/13AdRm5B7tur3Scx71qijFqvnD8WLOg_6/view?usp=drive_link"
+              },
+            ]
+          },
+         {
+            id: "ictr-d13",
+            num: "13",
+            title: "Revision Day 13 (2026-11-17)",
+            links: [
+              { type: "pending", label: "▶ Video", url: "" },
+              {
+                type: "pending",
+                label: "📄 Morning Paper 12",
                 url: ""
               },
             ]
@@ -468,9 +481,9 @@ const classData = [
               },
               { type: "video", label: "▶ Discussion", url: "https://youtu.be/wdWNZQoALCs?si=5zvbwheHMqBCqXOz" },
               {
-                type: "pending",
+                type: "pdf",
                 label: "✅ Marking",
-                url: ""
+                url: "https://drive.google.com/file/d/1LWEhfApd4lL52LknYDcpCnQcjmGA8ner/view?usp=drive_link"
               }
             ]
           },
@@ -504,9 +517,9 @@ const classData = [
               },
               { type: "video", label: "▶ Discussion", url: "https://youtu.be/wTUkic_vW9U?si=VtrZ-Yw962lRSOqy" },
               {
-                type: "pending",
+                type: "pdf",
                 label: "✅ Marking",
-                url: ""
+                url: "https://drive.google.com/file/d/15W6s84gMWU209ndXEb6YCgu1CsEPkhN9/view?usp=drive_link"
               }
             ]
           },
@@ -518,6 +531,24 @@ const classData = [
               {
                 type: "pending",
                 label: "📄 IRC Paper No. 11",
+                url: ""
+              },
+              { type: "pending", label: "▶ Discussion", url: "" },
+              {
+                type: "pending",
+                label: "✅ Marking",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "ictp-12",
+            num: "12",
+            title: "IRC Paper No. 12 (2026-11-17)",
+            links: [
+              {
+                type: "pending",
+                label: "📄 IRC Paper No. 12",
                 url: ""
               },
               { type: "pending", label: "▶ Discussion", url: "" },
@@ -701,6 +732,47 @@ const classData = [
             ]
           },
           {
+            id: "polimar",
+            num: "⚛",
+            title: "Polimer free lesson",
+            links: [
+              {
+                type: "video",
+                label: "▶ Polimer free lesson",
+                url: "https://www.youtube.com/live/UxjlAtlDOyQ?si=5KBl26K9Y1nnyPFQ"
+              },
+              {
+                type: "pdf",
+                label: "polimar.pdf",
+                url: "https://drive.google.com/file/d/134DWbNBa-o0-pyRGN0KHGmYlxnejhGAm/view?usp=drive_link"
+              }
+            ]
+          },
+          {
+            id: "sft-d14",
+            num: "14",
+            title: "Day 14 - 2026-11-08",
+            links: [
+              {
+                type: "video",
+                label: "▶ Recording (day 14)",
+                url: "https://www.youtube.com/live/guH5rH2RevA?si=nJqBWECUCXS5hgaT"
+              }
+            ]
+          },
+          {
+            id: "sft-d15",
+            num: "15",
+            title: "Day 15",
+            links: [
+              {
+                type: "pending",
+                label: "▶ Recording (day 15)",
+                url: ""
+              }
+            ]
+          },
+          {
             id: "sft-df02",
             num: "📁",
             title: "Next lesson Tutes (Drive)",
@@ -750,7 +822,7 @@ const classData = [
                 num: "29",
                 title: "Silver Paper No.29",
                 links: [
-                  { type: "pending", label: "Silver Paper No.29 Discussion", url: "" },
+                  { type: "video", label: "Silver Paper No.29 Discussion", url: "https://www.youtube.com/live/Yxn1saTyfbc?si=pvGVuFzbsGBJNYId" },
                   { type: "pdf", label: "Silver Paper No.29.pdf", url: "https://drive.google.com/file/d/1CPK_fL9hCHbFoGnzid8oBAz0TL3Io0W2/view?usp=drive_link" },
                 ]
               },
@@ -761,6 +833,42 @@ const classData = [
                 links: [
                   { type: "pending", label: "Silver Paper No.30 Discussion", url: "" },
                   { type: "pdf", label: "Silver Paper No.30.pdf", url: "https://drive.google.com/file/d/1BDUjJVkcIr3HhAfRACvO4K-5ZguFM01R/view?usp=drive_link" },
+                ]
+              },
+              {
+                id: "SFT-SilverPaper31",
+                num: "31",
+                title: "Silver Paper No.31",
+                links: [
+                  { type: "pending", label: "Silver Paper No.31 Discussion", url: "" },
+                  { type: "pending", label: "Silver Paper No.31.pdf", url: "" },
+                ]
+              },
+              {
+                id: "SFT-SilverPaper32",
+                num: "32",
+                title: "Silver Paper No.32",
+                links: [
+                  { type: "pending", label: "Silver Paper No.32 Discussion", url: "" },
+                  { type: "pending", label: "Silver Paper No.32.pdf", url: "" },
+                ]
+              },
+              {
+                id: "SFT-SilverPaper33",
+                num: "33",
+                title: "Silver Paper No.33",
+                links: [
+                  { type: "pending", label: "Silver Paper No.33 Discussion", url: "" },
+                  { type: "pending", label: "Silver Paper No.33.pdf", url: "" },
+                ]
+              },
+              {
+                id: "SFT-SilverPaper34",
+                num: "34",
+                title: "Silver Paper No.34",
+                links: [
+                  { type: "pending", label: "Silver Paper No.34 Discussion", url: "" },
+                  { type: "pending", label: "Silver Paper No.34.pdf", url: "" },
                 ]
               },
             ]
@@ -1913,7 +2021,7 @@ const classData = [
             }
           ]
         },
-          {
+        {
           id: "free-ETElectronic",
           num: "11",
           title: "ET – Electronic Recordings",
@@ -1922,6 +2030,18 @@ const classData = [
               type: "video",
               label: "▶ Free Class",
               url: "https://shorturl.at/AADh0"
+            }
+          ]
+        },
+        {
+          id: "free-polimar",
+          num: "12",
+          title: "SFT – Polimar free lesson",
+          links: [
+            {
+              type: "pending",
+              label: "▶ Free Class",
+              url: "#"
             }
           ]
         },
