@@ -286,6 +286,18 @@ const classData = [
             ]
           },
           {
+            id: "ictr-tute04",
+            num: "📁",
+            title: "Tute set No.04",
+            links: [
+              {
+                type: "pdf",
+                label: "📎 lesson 07 Tute 02 දත්ත සමුදා කළමනාකරණ පද්ධති (BDSM).pdf",
+                url: "https://drive.google.com/file/d/1aeRSkSglQb6pt-Z2DFWmk9r3DvfwniOI/view?usp=drive_link"
+              },
+            ]
+          },
+          {
             id: "ictr-d12",
             num: "12",
             title: "Revision Day 12 (2026-11-10)",
@@ -511,9 +523,9 @@ const classData = [
             title: "IRC Paper No. 10 (2026-11-03)",
             links: [
               {
-                type: "pending",
+                type: "pdf",
                 label: "📄 IRC Paper No. 10",
-                url: ""
+                url: "https://drive.google.com/file/d/1TZUe6zWp_exBxjN4KWWp5vQUeCHsXwqT/view?usp=drive_link"
               },
               { type: "video", label: "▶ Discussion", url: "https://youtu.be/wTUkic_vW9U?si=VtrZ-Yw962lRSOqy" },
               {
@@ -562,11 +574,47 @@ const classData = [
           {
             id: "ictp-13",
             num: "13",
-            title: "IRC Paper No. 13 (2026-11-34)",
+            title: "IRC Paper No. 13 (2026-11-24)",
             links: [
               {
                 type: "pending",
                 label: "📄 IRC Paper No. 13",
+                url: ""
+              },
+              { type: "pending", label: "▶ Discussion", url: "" },
+              {
+                type: "pending",
+                label: "✅ Marking",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "ictp-14",
+            num: "14",
+            title: "IRC Paper No. 14 ",
+            links: [
+              {
+                type: "pending",
+                label: "📄 IRC Paper No. 14",
+                url: ""
+              },
+              { type: "pending", label: "▶ Discussion", url: "" },
+              {
+                type: "pending",
+                label: "✅ Marking",
+                url: ""
+              }
+            ]
+          },
+          {
+            id: "ictp-15",
+            num: "15",
+            title: "IRC Paper No. 15 ",
+            links: [
+              {
+                type: "pending",
+                label: "📄 IRC Paper No. 15",
                 url: ""
               },
               { type: "pending", label: "▶ Discussion", url: "" },
