@@ -829,11 +829,23 @@ const classData = [
           {
             id: "sft-d15",
             num: "15",
-            title: "Day 15",
+            title: "Day 15 - 2026-11-15",
+            links: [
+              {
+                type: "video",
+                label: "▶ Recording (day 15)",
+                url: "https://www.youtube.com/live/0OYTIJmJHEk?si=byDas4p-ta86j9c8"
+              }
+            ]
+          },
+          {
+            id: "sft-d16",
+            num: "16",
+            title: "Day 16",
             links: [
               {
                 type: "pending",
-                label: "▶ Recording (day 15)",
+                label: "▶ Recording (day 16)",
                 url: ""
               }
             ]
