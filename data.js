@@ -317,8 +317,21 @@ const classData = [
             links: [
               { type: "pending", label: "▶ Video", url: "" },
               {
-                type: "pending",
+                type: "pdf",
                 label: "📄 Morning Paper 12",
+                url: "https://drive.google.com/file/d/1T2ywrMQhqrLZLos398T975xZt9Codx1R/view?usp=drive_link"
+              },
+            ]
+          },
+          {
+            id: "ictr-d14",
+            num: "14",
+            title: "Revision Day 14 (2026-11-24)",
+            links: [
+              { type: "pending", label: "▶ Video", url: "" },
+              {
+                type: "pending",
+                label: "📄 Morning Paper 13",
                 url: ""
               },
             ]
