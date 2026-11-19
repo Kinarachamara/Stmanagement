@@ -315,7 +315,7 @@ const classData = [
             num: "13",
             title: "Revision Day 13 (2026-11-17)",
             links: [
-              { type: "pending", label: "▶ Video", url: "" },
+              { type: "video", label: "▶ Video", url: "https://youtu.be/9op5zNz2clo" },
               {
                 type: "pdf",
                 label: "📄 Morning Paper 12",
