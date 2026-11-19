@@ -590,9 +590,9 @@ const classData = [
             title: "IRC Paper No. 13 (2026-11-24)",
             links: [
               {
-                type: "pending",
+                type: "pdf",
                 label: "📄 IRC Paper No. 13",
-                url: ""
+                url: "https://drive.google.com/file/d/1t9aQIoG30zjsOrh6APMxVV6o_byqEoFI/view?usp=drive_link"
               },
               { type: "pending", label: "▶ Discussion", url: "" },
               {
