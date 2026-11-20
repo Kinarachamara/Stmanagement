@@ -554,9 +554,9 @@ const classData = [
             title: "IRC Paper No. 11 (2026-11-10)",
             links: [
               {
-                type: "pending",
+                type: "pdf",
                 label: "📄 IRC Paper No. 11",
-                url: ""
+                url: "https://drive.google.com/file/d/1OVKUP7yUQ3zQKxKS8byzfxIfz6jzjWKX/view?usp=drive_link"
               },
               { type: "pending", label: "▶ Discussion", url: "" },
               {
