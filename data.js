@@ -576,7 +576,7 @@ const classData = [
                 label: "📄 IRC Paper No. 12",
                 url: ""
               },
-              { type: "pending", label: "▶ Discussion", url: "" },
+              { type: "video", label: "▶ Discussion", url: "https://youtu.be/LhbfIElAJWo" },
               {
                 type: "pending",
                 label: "✅ Marking",
