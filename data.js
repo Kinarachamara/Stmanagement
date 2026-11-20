@@ -1236,6 +1236,82 @@ const classData = [
       }
     ]
   },
+
+  {
+  id: "upulweerasinghe",
+  title: "SFT - Upul Weerasinghe",
+  badge: "❤️හුස්ම වැටෙන SFT - උපුල් වීරසිංහ ",
+  icon: "❤️‍🔥",
+  color: "#0D1B2A",
+  cards: [
+    {
+      title: "❤️හුස්ම වැටෙන SFT - උපුල් වීරසිංහ , theory and revision",
+      items: [
+        {
+          id: "upulweerasinghe-TuteSet01",
+          num: "📁",
+          title: "November month tute set",
+          links: [
+            {
+              type: "pending",
+              label: "",
+              url: ""
+            }
+          ]
+        },
+        {
+          id: "upulweerasinghe-V001",
+          num: "01",
+          title: "2027 AL - ජෛවාණු - Day 05 (2026/11/06)",
+          links: [
+            {
+              type: "video",
+              label: "2027 - SFT | ජෛවාණු - Day 05 | Upul Weerasinghe",
+              url: "https://www.youtube.com/live/oUGI2F9Xa_A?si=lhZOcWT-uRNkAUYV"
+            }
+          ]
+        },
+        {
+          id: "upulweerasinghe-V002",
+          num: "02",
+          title: "2027 AL - චලිතය - Day 08 (2026/11/06)",
+          links: [
+            {
+              type: "video",
+              label: "2027 - SFT | චලිතය - Day 08 | Upul Weerasinghe",
+              url: "https://youtu.be/kKqBLKITB7k?si=LG0ug7p1eJR_chVZ"
+            }
+          ]
+        },
+        {
+          id: "upulweerasinghe-V003",
+          num: "03",
+          title: "2027 AL - විද්‍යුතය - Day 01 (2026/11/13)",
+          links: [
+            {
+              type: "video",
+              label: "2027 - SFT | විද්‍යුතය - Day 01 | Upul Weerasinghe",
+              url: "https://www.youtube.com/live/9MUuTskgrHs?si=mbPK2YnMeU_4Vxn2"
+            }
+          ]
+        },
+        {
+          id: "upulweerasinghe-V004",
+          num: "04",
+          title: "2027 AL - තාපය - Day 01 (2026/11/13) ",
+          links: [
+            {
+              type: "video",
+              label: "2027 - SFT | තාපය - Day 01 | Upul Weerasinghe",
+              url: "https://www.youtube.com/live/cHERU04nXlk?si=yIJpH-zf-dkw9fyI"
+            }
+          ]
+        },
+      ]
+    }
+  ]
+},
+
   {
     id: "ETjalaKasala",
     title: "ET - ජල සම්පාදනය සහ කසල අපවහනය",
