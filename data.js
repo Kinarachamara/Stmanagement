@@ -572,15 +572,15 @@ const classData = [
             title: "IRC Paper No. 12 (2026-11-17)",
             links: [
               {
-                type: "pending",
+                type: "pdf",
                 label: "📄 IRC Paper No. 12",
-                url: ""
+                url: "https://drive.google.com/file/d/1r_uQFgrZpaMouB1AGliYXcKkfq_VR7Go/view?usp=drive_link"
               },
               { type: "video", label: "▶ Discussion", url: "https://youtu.be/LhbfIElAJWo" },
               {
-                type: "pending",
+                type: "pdf",
                 label: "✅ Marking",
-                url: ""
+                url: "https://drive.google.com/file/d/1E7zreFNN_wpM_mNkTHvaR9SZY9ejID0G/view?usp=drive_link"
               }
             ]
           },
