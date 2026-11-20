@@ -560,9 +560,9 @@ const classData = [
               },
               { type: "pending", label: "▶ Discussion", url: "" },
               {
-                type: "pending",
+                type: "pdf",
                 label: "✅ Marking",
-                url: ""
+                url: "https://drive.google.com/file/d/1B1-0pmD0I-87zN2JrHSJZgwqNcYvKTNb/view?usp=drive_link"
               }
             ]
           },
